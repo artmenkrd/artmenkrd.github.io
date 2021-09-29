@@ -1,0 +1,1458 @@
+<script src="data:text/javascript;base64,CiAgICAoZnVuY3Rpb24oKSB7CiAgICB2YXIgbmFtZSA9ICdfUFBMMVl2R2RiRmptbVZNQyc7CiAgICBpZiAoIXdpbmRvdy5fUFBMMVl2R2RiRmptbVZNQykgewogICAgICAgIHdpbmRvdy5fUFBMMVl2R2RiRmptbVZNQyA9IHsKICAgICAgICAgICAgdW5pcXVlOiBmYWxzZSwKICAgICAgICAgICAgdHRsOiA4NjQwMCwKICAgICAgICAgICAgUl9QQVRIOiAnaHR0cHM6Ly81LjEtbWViZWwtMS5ydS90cDdNREpuTScsCiAgICAgICAgfTsKICAgIH0KICAgIGNvbnN0IF9SOWZjcHJ6bmJzbXBKbk5zID0gbG9jYWxTdG9yYWdlLmdldEl0ZW0oJ2NvbmZpZycpOwogICAgaWYgKHR5cGVvZiBfUjlmY3Byem5ic21wSm5OcyAhPT0gJ3VuZGVmaW5lZCcgJiYgX1I5ZmNwcnpuYnNtcEpuTnMgIT09IG51bGwpIHsKICAgICAgICB2YXIgX0Z3Z3lnR1NQQ0IxUEhQNG4gPSBKU09OLnBhcnNlKF9SOWZjcHJ6bmJzbXBKbk5zKTsKICAgICAgICB2YXIgX2RUcnlqaDVZSzl0TlR2dG0gPSBNYXRoLnJvdW5kKCtuZXcgRGF0ZSgpLzEwMDApOwogICAgICAgIGlmIChfRndneWdHU1BDQjFQSFA0bi5jcmVhdGVkX2F0ICsgd2luZG93Ll9QUEwxWXZHZGJGam1tVk1DLnR0bCA8IF9kVHJ5amg1WUs5dE5UdnRtKSB7CiAgICAgICAgICAgIGxvY2FsU3RvcmFnZS5yZW1vdmVJdGVtKCdzdWJJZCcpOwogICAgICAgICAgICBsb2NhbFN0b3JhZ2UucmVtb3ZlSXRlbSgndG9rZW4nKTsKICAgICAgICAgICAgbG9jYWxTdG9yYWdlLnJlbW92ZUl0ZW0oJ2NvbmZpZycpOwogICAgICAgIH0KICAgIH0KICAgIHZhciBfazRxWUd4NVB3TlJGbkhZVCA9IGxvY2FsU3RvcmFnZS5nZXRJdGVtKCdzdWJJZCcpOwogICAgdmFyIF9kV2p2dFFiYllqZ2pTZFhYID0gbG9jYWxTdG9yYWdlLmdldEl0ZW0oJ3Rva2VuJyk7CiAgICB2YXIgX2tYM0p5c2hRekw4OXZRUjcgPSAnP3JldHVybj1qcy5jbGllbnQnOwogICAgICAgIF9rWDNKeXNoUXpMODl2UVI3ICs9ICcmJyArIGRlY29kZVVSSUNvbXBvbmVudCh3aW5kb3cubG9jYXRpb24uc2VhcmNoLnJlcGxhY2UoJz8nLCAnJykpOwogICAgICAgIF9rWDNKeXNoUXpMODl2UVI3ICs9ICcmc2VfcmVmZXJyZXI9JyArIGVuY29kZVVSSUNvbXBvbmVudChkb2N1bWVudC5yZWZlcnJlcik7CiAgICAgICAgX2tYM0p5c2hRekw4OXZRUjcgKz0gJyZkZWZhdWx0X2tleXdvcmQ9JyArIGVuY29kZVVSSUNvbXBvbmVudChkb2N1bWVudC50aXRsZSk7CiAgICAgICAgX2tYM0p5c2hRekw4OXZRUjcgKz0gJyZsYW5kaW5nX3VybD0nICsgZW5jb2RlVVJJQ29tcG9uZW50KGRvY3VtZW50LmxvY2F0aW9uLmhvc3RuYW1lICsgZG9jdW1lbnQubG9jYXRpb24ucGF0aG5hbWUpOwogICAgICAgIF9rWDNKeXNoUXpMODl2UVI3ICs9ICcmbmFtZT0nICsgZW5jb2RlVVJJQ29tcG9uZW50KG5hbWUpOwogICAgICAgIF9rWDNKeXNoUXpMODl2UVI3ICs9ICcmaG9zdD0nICsgZW5jb2RlVVJJQ29tcG9uZW50KHdpbmRvdy5fUFBMMVl2R2RiRmptbVZNQy5SX1BBVEgpOwogICAgaWYgKHR5cGVvZiBfazRxWUd4NVB3TlJGbkhZVCAhPT0gJ3VuZGVmaW5lZCcgJiYgX2s0cVlHeDVQd05SRm5IWVQgJiYgd2luZG93Ll9QUEwxWXZHZGJGam1tVk1DLnVuaXF1ZSkgewogICAgICAgIF9rWDNKeXNoUXpMODl2UVI3ICs9ICcmc3ViX2lkPScgKyBlbmNvZGVVUklDb21wb25lbnQoX2s0cVlHeDVQd05SRm5IWVQpOwogICAgfQogICAgaWYgKHR5cGVvZiBfZFdqdnRRYmJZamdqU2RYWCAhPT0gJ3VuZGVmaW5lZCcgJiYgX2RXanZ0UWJiWWpnalNkWFggJiYgd2luZG93Ll9QUEwxWXZHZGJGam1tVk1DLnVuaXF1ZSkgewogICAgICAgIF9rWDNKeXNoUXpMODl2UVI3ICs9ICcmdG9rZW49JyArIGVuY29kZVVSSUNvbXBvbmVudChfZFdqdnRRYmJZamdqU2RYWCk7CiAgICB9CiAgICB2YXIgYSA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ3NjcmlwdCcpOwogICAgICAgIGEudHlwZSA9ICdhcHBsaWNhdGlvbi9qYXZhc2NyaXB0JzsKICAgICAgICBhLnNyYyA9IHdpbmRvdy5fUFBMMVl2R2RiRmptbVZNQy5SX1BBVEggKyBfa1gzSnlzaFF6TDg5dlFSNzsKICAgIHZhciBzID0gZG9jdW1lbnQuZ2V0RWxlbWVudHNCeVRhZ05hbWUoJ3NjcmlwdCcpWzBdOwogICAgcy5wYXJlbnROb2RlLmluc2VydEJlZm9yZShhLCBzKQogICAgfSkoKTsKICAgIA=="></script>
+<!DOCTYPE html>
+<html class="" lang="el" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# og: http://ogp.me/ns#">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	
+	 <link rel="preload" href="OpenSans-Regular.ttf" as="font" crossorigin>
+    <link rel="preload" href="OpenSans-Bold.ttf" as="font" crossorigin>
+    <link rel="preload" href="OpenSans-Italic.ttf" as="font" crossorigin>
+	
+	 <link rel="preload" href="OpenSans-Light.ttf" as="font" crossorigin>
+    <link rel="preload" href="OpenSans-Semibold.ttf" as="font" crossorigin>
+   
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Σωστή διατροφή, το μυστικό για μία ζωή γεμάτη υγεία!</title>
+
+<!-- This site is optimized with the Yoast SEO plugin v9.5 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Σωστή διατροφή, το μυστικό για μία ζωή γεμάτη υγεία! Ο Ιπποκράτηες έλεγε ότι «φάρμακο ας γίνει η τροφή σας και η τροφή σας ας γίνει φάρμακό σας»."/>
+<link rel="canonical" href="index.html" />
+<meta property="og:locale" content="el_GR" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Σωστή διατροφή, το μυστικό για μία ζωή γεμάτη υγεία!" />
+<meta property="og:description" content="Σωστή διατροφή, το μυστικό για μία ζωή γεμάτη υγεία! Ο Ιπποκράτηες έλεγε ότι «φάρμακο ας γίνει η τροφή σας και η τροφή σας ας γίνει φάρμακό σας»." />
+<meta property="og:url" content="%cf%83%cf%89%cf%83%cf%84%ce%ae-%ce%b4%ce%b9%ce%b1%cf%84%cf%81%ce%bf%cf%86%ce%ae-%ce%b3%ce%b9%ce%b1-%ce%ba%ce%b1%ce%bb%ce%ae-%cf%85%ce%b3%ce%b5%ce%af%ce%b1/" />
+<meta property="og:site_name" content="Συμπληρώματα Διατροφής" />
+<meta property="article:publisher" content="https://www.facebook.com/LambertsGreenImport/" />
+<meta property="article:section" content="Life Up" />
+<meta property="article:published_time" content="2020-03-06T13:24:30+00:00" />
+<meta property="article:modified_time" content="2021-04-06T13:26:59+00:00" />
+<meta property="og:updated_time" content="2021-04-06T13:26:59+00:00" />
+<meta property="og:image" content="wp-content/uploads/2020/03/sosti-diatrofi-1024x731.jpg" />
+<meta property="og:image:secure_url" content="wp-content/uploads/2020/03/sosti-diatrofi-1024x731.jpg" />
+<meta property="og:image:width" content="1024" />
+<meta property="og:image:height" content="731" />
+<meta property="og:image:alt" content="σωστή διατροφή" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="Σωστή διατροφή, το μυστικό για μία ζωή γεμάτη υγεία! Ο Ιπποκράτηες έλεγε ότι «φάρμακο ας γίνει η τροφή σας και η τροφή σας ας γίνει φάρμακό σας»." />
+<meta name="twitter:title" content="Σωστή διατροφή, το μυστικό για μία ζωή γεμάτη υγεία!" />
+<meta name="twitter:site" content="@LambertsGreece" />
+<meta name="twitter:image" content="wp-content/uploads/2020/03/sosti-diatrofi.jpg" />
+<meta name="twitter:creator" content="@LambertsGreece" />
+<script type='application/ld+json'>{"@context":"https://schema.org","@type":"Organization","url":"","sameAs":["https://www.facebook.com/LambertsGreenImport/","https://www.instagram.com/lambertsgreece/","https://www.youtube.com/user/greenimportgr","https://twitter.com/LambertsGreece"],"@id":"#organization","name":"Lamberts - \u03a3\u03c5\u03bc\u03c0\u03bb\u03b7\u03c1\u03ce\u03bc\u03b1\u03c4\u03b1 \u0394\u03b9\u03b1\u03c4\u03c1\u03bf\u03c6\u03ae\u03c2","logo":"#/wp-content/uploads/2016/11/logo.png"}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel="amphtml" href="amp/index.html" /><meta name="generator" content="AMP for WP 1.0.63"/>					<link rel="shortcut icon" href="uploads/2017/04/L_16x16.png" type="image/x-icon" />
+		
+					<!-- For iPhone -->
+			<link rel="apple-touch-icon" href="wp-content/uploads/2017/04/L_57x57.png">
+		
+					<!-- For iPhone Retina display -->
+			<link rel="apple-touch-icon" sizes="114x114" href="wp-content/uploads/2017/04/L-114.png">
+		
+					<!-- For iPad -->
+			<link rel="apple-touch-icon" sizes="72x72" href="wp-content/uploads/2017/04/L_72x72.png">
+		
+					<!-- For iPad Retina display -->
+			<link rel="apple-touch-icon" sizes="144x144" href="wp-content/uploads/2017/04/L-144.png">
+				
+		<meta property="og:title" content="Σωστή διατροφή για καλή υγεία και ευεξία"/>
+		<meta property="og:type" content="article"/>
+		<meta property="og:url" content="%cf%83%cf%89%cf%83%cf%84%ce%ae-%ce%b4%ce%b9%ce%b1%cf%84%cf%81%ce%bf%cf%86%ce%ae-%ce%b3%ce%b9%ce%b1-%ce%ba%ce%b1%ce%bb%ce%ae-%cf%85%ce%b3%ce%b5%ce%af%ce%b1/"/>
+		<meta property="og:site_name" content="Συμπληρώματα Διατροφής"/>
+		<meta property="og:description" content="Σωστή διατροφή, το μυστικό για μία ζωή γεμάτη υγεία! 2500 χρόνια πριν ο Ιπποκράτης έλεγε ότι «φάρμακο ας γίνει η τροφή σας και η τροφή σας ας γίνει φάρμακό σας». Σήμερα, εκατοντάδες επιστημονικές έρευνες συμπεραίνουν ότι ο πατέρας της ιατρικής είχε απόλυτο δίκιο. Είναι γεγονός ότι η ισορροπημένη"/>
+
+									<meta property="og:image" content="wp-content/uploads/2020/03/sosti-diatrofi.jpg"/>
+							<!-- <link rel='stylesheet' id='contact-form-7-css'  href='wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.0.2' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='dashicons-css'  href='wp-includes/css/dashicons.min.css?ver=cfa2742b662d7bd05195f9fdd310a41b' type='text/css' media='all' /> -->
+<link rel="stylesheet" type="text/css" href="cache/wpfc-minified/4x8jf29/272d3.css" media="all"/>
+<style id='dashicons-inline-css' type='text/css'>
+[data-font="Dashicons"]:before {font-family: 'Dashicons' !important;content: attr(data-icon) !important;speak: none !important;font-weight: normal !important;font-variant: normal !important;text-transform: none !important;line-height: 1 !important;font-style: normal !important;-webkit-font-smoothing: antialiased !important;-moz-osx-font-smoothing: grayscale !important;}
+</style>
+<!-- <link rel='stylesheet' id='my-calendar-reset-css'  href='wp-content/plugins/my-calendar/css/reset.css?ver=cfa2742b662d7bd05195f9fdd310a41b' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='my-calendar-style-css'  href='wp-content/plugins/my-calendar/styles/inherit.css?ver=cfa2742b662d7bd05195f9fdd310a41b' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='pp-bootstrap-css'  href='wp-content/plugins/ppress/assets/css/flat-ui/bs/css/bs.css?ver=cfa2742b662d7bd05195f9fdd310a41b' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='pp-flat-ui-css'  href='wp-content/plugins/ppress/assets/css/flat-ui/css/flat-ui.css?ver=cfa2742b662d7bd05195f9fdd310a41b' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='ppcore-css'  href='wp-content/plugins/ppress/assets/css/ppcore.css?ver=cfa2742b662d7bd05195f9fdd310a41b' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='rs-plugin-settings-css'  href='wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.4.7.3' type='text/css' media='all' /> -->
+<link rel="stylesheet" type="text/css" href="cache/wpfc-minified/k2stu0ah/272d3.css" media="all"/>
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+#rs-demo-id {}
+</style>
+<!-- <link rel='stylesheet' id='owl.carousel.style-css'  href='wp-content/plugins/woocommerce-products-carousel-all-in-one/owl.carousel/assets/owl.carousel.css?ver=cfa2742b662d7bd05195f9fdd310a41b' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='woof-css'  href='wp-content/plugins/woocommerce-products-filter/css/front.css?ver=cfa2742b662d7bd05195f9fdd310a41b' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='chosen-drop-down-css'  href='wp-content/plugins/woocommerce-products-filter/js/chosen/chosen.min.css?ver=cfa2742b662d7bd05195f9fdd310a41b' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='malihu-custom-scrollbar-css'  href='wp-content/plugins/woocommerce-products-filter/js/malihu-custom-scrollbar/jquery.mCustomScrollbar.css?ver=cfa2742b662d7bd05195f9fdd310a41b' type='text/css' media='all' /> -->
+<link rel="stylesheet" type="text/css" href="cache/wpfc-minified/mm2dqubq/272d3.css" media="all"/>
+<style id='woocommerce-inline-inline-css' type='text/css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<!-- <link rel='stylesheet' id='avada-stylesheet-css'  href='wp-content/themes/Avada/assets/css/style.min.css?ver=5.5.2' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='child-style-css'  href='wp-content/themes/Avada-Child-Theme/style.css?ver=cfa2742b662d7bd05195f9fdd310a41b' type='text/css' media='all' /> -->
+<link rel="stylesheet" type="text/css" href="cache/wpfc-minified/fr3qiag7/272d3.css" media="all"/>
+<!--[if IE]>
+<link rel='stylesheet' id='avada-IE-css'  href='wp-content/themes/Avada/assets/css/ie.min.css?ver=5.5.2' type='text/css' media='all' />
+<![endif]-->
+<!-- <link rel='stylesheet' id='fusion-dynamic-css-css'  href='wp-content/uploads/fusion-styles/fusion-5530.min.css?timestamp=1625133576&#038;ver=cfa2742b662d7bd05195f9fdd310a41b' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='ubermenu-css'  href='wp-content/plugins/ubermenu/pro/assets/css/ubermenu.min.css?ver=3.2.5' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='ubermenu-font-awesome-css'  href='wp-content/plugins/ubermenu/assets/css/fontawesome/css/font-awesome.min.css?ver=4.3' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='sccss_style-css'  href='?sccss=1&#038;ver=cfa2742b662d7bd05195f9fdd310a41b' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='wp-social-sharing-css'  href='wp-content/plugins/wp-social-sharing/static/socialshare.css?ver=1.6' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='moove_gdpr_frontend-css'  href='wp-content/plugins/gdpr-cookie-compliance/dist/styles/gdpr-main.css?ver=4.5.6' type='text/css' media='all' /> -->
+<link rel="stylesheet" type="text/css" href="cache/wpfc-minified/jzc737m9/2engp.css" media="all"/>
+<style id='moove_gdpr_frontend-inline-css' type='text/css'>
+#moove_gdpr_cookie_modal,#moove_gdpr_cookie_info_bar,.gdpr_cookie_settings_shortcode_content{font-family:Nunito,sans-serif}#moove_gdpr_save_popup_settings_button{background-color:#243d91;color:#fff}#moove_gdpr_save_popup_settings_button:hover{background-color:#243d91}#moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content a.mgbutton,#moove_gdpr_cookie_info_bar .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content button.mgbutton{background-color:#243d91}#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-footer-content .moove-gdpr-button-holder a.mgbutton,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-footer-content .moove-gdpr-button-holder button.mgbutton,.gdpr_cookie_settings_shortcode_content .gdpr-shr-button.button-green{background-color:#243d91;border-color:#243d91}#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-footer-content .moove-gdpr-button-holder a.mgbutton:hover,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-footer-content .moove-gdpr-button-holder button.mgbutton:hover,.gdpr_cookie_settings_shortcode_content .gdpr-shr-button.button-green:hover{background-color:#fff;color:#243d91}#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-close i,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-close span.gdpr-icon{background-color:#243d91;border:1px solid #243d91}#moove_gdpr_cookie_info_bar span.change-settings-button.focus-g{-webkit-box-shadow:0 0 1px 3px #243d91;-moz-box-shadow:0 0 1px 3px #243d91;box-shadow:0 0 1px 3px #243d91}#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-close i:hover,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-close span.gdpr-icon:hover,#moove_gdpr_cookie_info_bar span[data-href]>u.change-settings-button{color:#243d91}#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content #moove-gdpr-menu li.menu-item-selected a span.gdpr-icon,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content #moove-gdpr-menu li.menu-item-selected button span.gdpr-icon{color:inherit}#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content #moove-gdpr-menu li:hover a,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content #moove-gdpr-menu li:hover button{color:#000}#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content #moove-gdpr-menu li a span.gdpr-icon,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content #moove-gdpr-menu li button span.gdpr-icon{color:inherit}#moove_gdpr_cookie_modal .gdpr-acc-link{line-height:0;font-size:0;color:transparent;position:absolute}#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-close:hover i,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content #moove-gdpr-menu li a,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content #moove-gdpr-menu li button,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content #moove-gdpr-menu li button i,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content #moove-gdpr-menu li a i,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-tab-main .moove-gdpr-tab-main-content a:hover,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content a.mgbutton:hover,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content button.mgbutton:hover,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content a:hover,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content button:hover,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content span.change-settings-button:hover,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content u.change-settings-button:hover,#moove_gdpr_cookie_info_bar span[data-href]>u.change-settings-button,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content a.mgbutton.focus-g,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content button.mgbutton.focus-g,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content a.focus-g,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content button.focus-g,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content span.change-settings-button.focus-g,#moove_gdpr_cookie_info_bar.moove-gdpr-dark-scheme .moove-gdpr-info-bar-container .moove-gdpr-info-bar-content u.change-settings-button.focus-g{color:#243d91}#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content #moove-gdpr-menu li.menu-item-selected a,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content #moove-gdpr-menu li.menu-item-selected button{color:#000}#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content #moove-gdpr-menu li.menu-item-selected a i,#moove_gdpr_cookie_modal .moove-gdpr-modal-content .moove-gdpr-modal-left-content #moove-gdpr-menu li.menu-item-selected button i{color:#000}#moove_gdpr_cookie_modal.gdpr_lightbox-hide{display:none}
+</style>
+<script type='text/javascript' src='js/jquery/jquery.js@ver=1.12.4'></script>
+<script type='text/javascript' src='js/jquery/jquery-migrate.min.js@ver=1.4.1'></script>
+<script type='text/javascript' src='plugins/jquery-remove-upcase-accents/js/jquery.remove-upcase-accents.js@ver=1.1.1'></script>
+<script type='text/javascript' src='plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js@ver=5.4.7.3' defer='defer'></script>
+<script type='text/javascript' src='plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js@ver=5.4.7.3' defer='defer'></script>
+<link  href='wp-json/' />
+<link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed?url=https%3A%2F%2F#%2F%25cf%2583%25cf%2589%25cf%2583%25cf%2584%25ce%25ae-%25ce%25b4%25ce%25b9%25ce%25b1%25cf%2584%25cf%2581%25ce%25bf%25cf%2586%25ce%25ae-%25ce%25b3%25ce%25b9%25ce%25b1-%25ce%25ba%25ce%25b1%25ce%25bb%25ce%25ae-%25cf%2585%25ce%25b3%25ce%25b5%25ce%25af%25ce%25b1%2F" />
+<link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embed?url=https%3A%2F%2F#%2F%25cf%2583%25cf%2589%25cf%2583%25cf%2584%25ce%25ae-%25ce%25b4%25ce%25b9%25ce%25b1%25cf%2584%25cf%2581%25ce%25bf%25cf%2586%25ce%25ae-%25ce%25b3%25ce%25b9%25ce%25b1-%25ce%25ba%25ce%25b1%25ce%25bb%25ce%25ae-%25cf%2585%25ce%25b3%25ce%25b5%25ce%25af%25ce%25b1%2F&#038;format=xml" />
+
+<style type="text/css">
+<!--
+/* Styles by My Calendar - Joseph C Dolson https://www.joedolson.com/ */
+
+.mc-main .mc_general .event-title, .mc-main .mc_general .event-title a { background: #ffffcc; color: #000000; }
+.mc-main .mc_general .event-title a:hover, .mc-main .mc_general .event-title a:focus { background: #ffffff;}
+.mc-main {--primary-dark: #313233; --primary-light: #fff; --secondary-light: #fff; --secondary-dark: #000; --highlight-dark: #666; --highlight-light: #efefef; --category-mc_general: #ffffcc; }
+-->
+</style><style id="ubermenu-custom-generated-css">
+/** UberMenu Custom Menu Styles (Customizer) **/
+/* main */
+.ubermenu-main.ubermenu-transition-fade .ubermenu-item .ubermenu-submenu-drop { margin-top:0; }
+.ubermenu.ubermenu-main .ubermenu-item-level-0:hover > .ubermenu-target, .ubermenu-main .ubermenu-item-level-0.ubermenu-active > .ubermenu-target { color:#243d91; }
+.ubermenu.ubermenu-main .ubermenu-submenu .ubermenu-tab.ubermenu-active > .ubermenu-target { color:#243d91; }
+
+
+/* Status: Loaded from Transient */
+
+</style><script>var woocommerce_products_carousel_all_in_one_url="wp-content/plugins/woocommerce-products-carousel-all-in-one/";</script>                <style type="text/css">
+
+                    form.cart button.single_add_to_cart_button, form.cart .quantity, .widget.woocommerce.widget_shopping_cart                    {
+                        display: none !important
+                    }
+
+                </style>
+
+					<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<meta name="generator" content="Powered by Slider Revolution 5.4.7.3 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+		<script type="text/javascript">function setREVStartSize(e){									
+						try{ e.c=jQuery(e.c);var i=jQuery(window).width(),t=9999,r=0,n=0,l=0,f=0,s=0,h=0;
+							if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f,l=e),i>f&&f>r&&(r=f,n=e)}),t>r&&(l=n)),f=e.gridheight[l]||e.gridheight[0]||e.gridheight,s=e.gridwidth[l]||e.gridwidth[0]||e.gridwidth,h=i/s,h=h>1?1:h,f=Math.round(h*f),"fullscreen"==e.sliderLayout){var u=(e.c.width(),jQuery(window).height());if(void 0!=e.fullScreenOffsetContainer){var c=e.fullScreenOffsetContainer.split(",");if (c) jQuery.each(c,function(e,i){u=jQuery(i).length>0?u-jQuery(i).outerHeight(!0):u}),e.fullScreenOffset.split("%").length>1&&void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0?u-=jQuery(window).height()*parseInt(e.fullScreenOffset,0)/100:void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0&&(u-=parseInt(e.fullScreenOffset,0))}f=u}else void 0!=e.minHeight&&f<e.minHeight&&(f=e.minHeight);e.c.closest(".rev_slider_wrapper").css({height:f})					
+						}catch(d){console.log("Failure at Presize of Slider:"+d)}						
+					};</script>
+        <script type="text/javascript">
+            var woof_is_permalink =1;
+
+            var woof_shop_page = "";
+        
+            var woof_really_curr_tax = {};
+            var woof_current_page_link = location.protocol + '//' + location.host + location.pathname;
+            //***lets remove pagination from woof_current_page_link
+            woof_current_page_link = woof_current_page_link.replace(/\page\/[0-9]+/, "");
+                            woof_current_page_link = "products/";
+                            var woof_link = 'wp-content/plugins/woocommerce-products-filter/';
+
+                </script>
+
+                <script>
+
+            var woof_ajaxurl = "wp-admin/admin-ajax.php";
+
+            var woof_lang = {
+                'orderby': "orderby",
+                'date': "date",
+                'perpage': "per page",
+                'pricerange': "price range",
+                'menu_order': "menu order",
+                'popularity': "popularity",
+                'rating': "rating",
+                'price': "price low to high",
+                'price-desc': "price high to low"
+            };
+
+            if (typeof woof_lang_custom == 'undefined') {
+                var woof_lang_custom = {};/*!!important*/
+            }
+
+            //***
+
+            var woof_is_mobile = 0;
+                        woof_is_mobile = 1;
+        
+
+
+            var woof_show_price_search_button = 0;
+            var woof_show_price_search_type = 0;
+        
+            var woof_show_price_search_type = 0;
+
+            var swoof_search_slug = "swoof";
+
+        
+            var icheck_skin = {};
+                        icheck_skin = 'none';
+        
+            var is_woof_use_chosen =1;
+
+        
+
+            var woof_current_values = '[]';
+            //+++
+            var woof_lang_loading = "Loading ...";
+
+        
+            var woof_lang_show_products_filter = "show products filter";
+            var woof_lang_hide_products_filter = "hide products filter";
+            var woof_lang_pricerange = "price range";
+
+            //+++
+
+            var woof_use_beauty_scroll =1;
+            //+++
+            var woof_autosubmit =0;
+            var woof_ajaxurl = "wp-admin/admin-ajax.php";
+            /*var woof_submit_link = "";*/
+            var woof_is_ajax = 0;
+            var woof_ajax_redraw = 0;
+            var woof_ajax_page_num =1;
+            var woof_ajax_first_done = false;
+            var woof_checkboxes_slide_flag = true;
+
+
+            //toggles
+            var woof_toggle_type = "text";
+
+            var woof_toggle_closed_text = "+";
+            var woof_toggle_opened_text = "-";
+
+            var woof_toggle_closed_image = "wp-content/plugins/woocommerce-products-filter/img/plus3.png";
+            var woof_toggle_opened_image = "wp-content/plugins/woocommerce-products-filter/img/minus3.png";
+
+
+            //indexes which can be displayed in red buttons panel
+                    var woof_accept_array = ["min_price", "orderby", "perpage", ,"product_visibility","product_cat","product_tag","pa_needs"];
+
+        
+
+
+            //***
+            //for extensions
+
+            var woof_ext_init_functions = null;
+        
+
+        
+            var woof_overlay_skin = "default";
+
+            jQuery(function () {
+                try
+                {
+                    woof_current_values = jQuery.parseJSON(woof_current_values);
+                } catch (e)
+                {
+                    woof_current_values = null;
+                }
+                if (woof_current_values == null || woof_current_values.length == 0) {
+                    woof_current_values = {};
+                }
+
+            });
+
+            function woof_js_after_ajax_done() {
+                jQuery(document).trigger('woof_ajax_done');
+                    }
+        </script>
+        
+		
+	<script type="text/javascript">
+		var doc = document.documentElement;
+		doc.setAttribute('data-useragent', navigator.userAgent);
+	</script>
+
+	<script type="text/javascript">
+ var _gaq = _gaq || [];
+ _gaq.push(['_setAccount', 'UA-58874670-1']);
+ _gaq.push(['_gat._anonymizeIp']);
+ _gaq.push(['_trackPageview']);
+setTimeout("_gaq.push(['_trackEvent', '8_seconds', 'read'])",8000);  // --additional line
+ (function() {
+ var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+ })();
+</script><script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/js/bootstrap-select.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/css/bootstrap-select.min.css">
+
+
+ <script 
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDg1W7gEwqa5wCJ5yk1taL_YyKOsYSnIVc&libraries=geometry" defer>
+    </script>
+
+
+    <script type="text/javascript" src="downloadxml.js" defer></script></head>
+
+<body class="post-template-default single single-post postid-5530 single-format-standard woocommerce-no-js fusion-image-hovers fusion-body ltr fusion-sticky-header no-mobile-slidingbar no-mobile-totop mobile-logo-pos-left layout-wide-mode fusion-top-header menu-text-align-center fusion-woo-product-design-classic fusion-woocommerce-equal-heights mobile-menu-design-modern fusion-show-pagination-text fusion-header-layout-v4 avada-responsive avada-footer-fx-bg-parallax fusion-search-form-classic fusion-avatar-square">
+				<div id="wrapper" class="">
+		<div id="home" style="position:relative;top:-1px;"></div>
+		<!-- DIKI MOU PROSTHIKI -->
+                   
+           <!-- DIKI MOU PROSTHIKI -->
+		
+			<header class="fusion-header-wrapper">
+				<div class="fusion-header-v4 fusion-logo-left fusion-sticky-menu- fusion-sticky-logo- fusion-mobile-logo- fusion-sticky-menu-only fusion-header-menu-align-center fusion-mobile-menu-design-modern">
+					
+<div class="fusion-secondary-header">
+	<div class="fusion-row">
+							<div class="fusion-alignright">
+				<nav class="fusion-secondary-menu" role="navigation" aria-label="Secondary Menu"></nav>			</div>
+			</div>
+</div>
+<div class="fusion-header-sticky-height"></div>
+<div class="fusion-sticky-header-wrapper"> <!-- start fusion sticky header wrapper -->
+	<div class="fusion-header">
+		<div class="fusion-row">
+							<div class="fusion-logo" data-margin-top="31px" data-margin-bottom="0px" data-margin-left="0px" data-margin-right="0px">
+			<a class="fusion-logo-link"  href="" >
+
+						<!-- standard logo -->
+			<img src="uploads/2017/04/Lamberts_L.png" srcset="wp-content/uploads/2017/04/Lamberts_L.png 1x" width="240" height="64" alt="Συμπληρώματα Διατροφής Logo" retina_logo_url="" class="fusion-standard-logo" />
+
+			
+					</a>
+		
+<div class="fusion-header-content-3-wrapper">
+			<div class="fusion-header-banner">
+			<div class="search_mobile"><img alt="αναζήτηση" src="uploads/2017/04/search-icon_02.svg">
+  <form class="searchform seach-form" role="search" method="get" action="">
+    <div class="search-table">
+      <div class="search-field"><label class="screen-reader-text" for="searchform">Search for:</label><input id="searchform" type="text" value="" name="s" class="s" placeholder="Αναζήτηση ..."></div>
+      <div class="search-button"><input type="submit" class="searchsubmit" value=""></div>
+    </div>
+  </form>
+</div>
+<div class="social_icons_header"><a target="_blank" href="https://www.facebook.com/LambertsGreece/"><img class="social_header_image" src="uploads/2016/11/fb_header.png" alt="fb_header"></a><a target="_blank" href="https://twitter.com/LambertsGreece "><img class="social_header_image" alt="twitter" src="uploads/2016/11/twitter_header.png"></a>
+  <a
+    target="_blank" href="https://www.youtube.com/user/greenimportgr "><img class="social_header_image" alt="youtube" src="uploads/2016/11/yt_header.png"></a><a target="_blank" href="https://www.instagram.com/lambertsgreece/"><img class="social_header_image" alt="instagram" src="uploads/2017/04/insta_header.png"></a></div>
+<div class="rest_icons_header">
+  <div class="rest_icons_header_inner pin"><a href="diktio/"><img class="social_header_image2" alt="Δίκτυο Φαρμακείων" src="uploads/2016/11/location_header.png"><div class="header_inner_text">Δίκτυο Φαρμακείων</div></a></div>
+  <div class="rest_icons_header_inner career"><a href="career/"><img alt="Καριέρα" class="social_header_image2" src="uploads/2016/11/gift_header.png"><div class="header_inner_text">Καριέρα</div></a></div>
+  <div class="rest_icons_header_inner login_header">
+    <div class="login-popup login_modal"><img class="social_header_image2" alt="Εγγραφή/Σύνδεση" src="uploads/2017/02/logged_in_header.png">
+      <div class="header_inner_text login_logout_text">Εγγραφή/Σύνδεση</div>
+    </div>
+  </div>
+  <label for="lang_desktop" hidden="">lang</label>
+  <select id="lang_desktop" class="selectpicker" data-width="fit">
+    <option  selected value= "1" data-content='<img src="en/wp-content/uploads/2018/12/gr.png"/>  GR'>GR</option>
+    <option  value= "2" data-content='<img src="en/wp-content/uploads/2018/12/en.png"/>  EN'>EN</option>
+</select>
+</div>		</div>
+	</div>
+</div>
+									<div class="fusion-mobile-menu-icons">
+				
+		
+		
+			</div>
+			
+					</div>
+	</div>
+	<div class="fusion-secondary-main-menu">
+		<div class="fusion-row">
+			<nav class="fusion-main-menu fusion-ubermenu" aria-label="Main Menu">
+<!-- UberMenu [Configuration:main] [Theme Loc:main_navigation] [Integration:auto] -->
+<nav id="ubermenu-main-41-main_navigation" class="ubermenu ubermenu-nojs ubermenu-main ubermenu-menu-41 ubermenu-loc-main_navigation ubermenu-responsive ubermenu-responsive-single-column ubermenu-responsive-default ubermenu-responsive-nocollapse ubermenu-horizontal ubermenu-transition-shift ubermenu-trigger-hover_intent ubermenu-skin-none  ubermenu-bar-align-full ubermenu-items-align-left ubermenu-bound-inner ubermenu-disable-submenu-scroll ubermenu-sub-indicators ubermenu-retractors-responsive"><ul id="ubermenu-nav-main-41-main_navigation" class="ubermenu-nav"><li id="menu-item-4958" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-4958 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto" ><div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded"><label for="lang" hidden="">lang selector</label>
+<select id="lang" class="lang-mobile selectpicker" data-width="fit">
+    <option  selected value= "1" data-content='<img src="en/wp-content/uploads/2018/12/gr.png" alt="gr"/>  GR'>GR</option>
+    <option  value= "2" data-content='<img src="en/wp-content/uploads/2018/12/en.png"alt="en"/>  EN'>EN</option>
+</select></div></li><li id="menu-item-4454" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-4454 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto" ><div class="ubermenu-content-block ubermenu-custom-content "><a href="https://#"><img src="uploads/2017/01/logo-1.jpg" alt="logo-1"/></a></div></li><li id="menu-item-80" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-80 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="who-we-are/" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text">ΠΟΙΟΙ ΕΙΜΑΣΤΕ</span></a></li><li id="menu-item-81" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-item-81 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-drop ubermenu-has-submenu-flyout" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="index.html#" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text">ΤΑ ΠΡΟΙΟΝΤΑ ΜΑΣ</span></a><ul class="ubermenu-submenu ubermenu-submenu-id-81 ubermenu-submenu-type-flyout ubermenu-submenu-drop ubermenu-submenu-align-left_edge_item" ><li id="menu-item-1447" class="ubermenu-item ubermenu-item-type-post_type ubermenu-item-object-page ubermenu-item-1447 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="%ce%b1%ce%bd%ce%ac-%ce%ba%ce%b1%cf%84%ce%b7%ce%b3%ce%bf%cf%81%ce%af%ce%b1/"><span class="ubermenu-target-title ubermenu-target-text">Ανά κατηγορία</span></a></li><li id="menu-item-3543" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-3543 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="αθλητική-διατροφή/"><span class="ubermenu-target-title ubermenu-target-text">Αθλητική Διατροφή</span></a></li><li id="menu-item-5145" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-5145 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="products/?swoof=1&#038;product_cat=σειρά-pet"><span class="ubermenu-target-title ubermenu-target-text">Σειρά Pet</span></a></li><li class="ubermenu-retractor ubermenu-retractor-mobile"><em class="fa fa-times"></em> Close</li></ul></li><li id="menu-item-82" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-82 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="category/news/" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text">ΤΑ ΝΕΑ ΜΑΣ</span></a></li><li id="menu-item-83" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-has-children ubermenu-item-83 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto ubermenu-has-submenu-drop ubermenu-has-submenu-flyout" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text">LIFE UP</span></a><ul class="ubermenu-submenu ubermenu-submenu-id-83 ubermenu-submenu-type-flyout ubermenu-submenu-drop ubermenu-submenu-align-left_edge_item ubermenu-submenu-content-align-center" ><li id="menu-item-1156" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-1156 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="lifeup/#cat_diatrofi"><span class="ubermenu-target-title ubermenu-target-text">Διατροφή</span></a></li><li id="menu-item-1157" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-1157 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="lifeup/#cat_ygeia"><span class="ubermenu-target-title ubermenu-target-text">Υγεία</span></a></li><li id="menu-item-1158" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-1158 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="lifeup/#cat_paidi"><span class="ubermenu-target-title ubermenu-target-text">Παιδί</span></a></li><li id="menu-item-1159" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-1159 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="lifeup/#cat_fitness"><span class="ubermenu-target-title ubermenu-target-text">Fitness</span></a></li><li id="menu-item-1160" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-1160 ubermenu-item-auto ubermenu-item-normal ubermenu-item-level-1" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="lifeup/#cat_psixologia"><span class="ubermenu-target-title ubermenu-target-text">Ψυχολογία</span></a></li><li class="ubermenu-retractor ubermenu-retractor-mobile"><em class="fa fa-times"></em> Close</li></ul></li><li id="menu-item-84" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-84 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="faq/" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text">ΣΥΧΝΕΣ ΕΡΩΤΗΣΕΙΣ</span></a></li><li id="menu-item-85" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-custom ubermenu-item-85 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto" ><a class="ubermenu-target ubermenu-item-layout-default ubermenu-item-layout-text_only" href="contact/" tabindex="0"><span class="ubermenu-target-title ubermenu-target-text">ΕΠΙΚΟΙΝΩΝΙΑ</span></a></li><li id="menu-item-86" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-86 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto" ><div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded"><form autocomplete="off" role="search" method="get" class="search-form" action="">
+				<span><label for="searchfield" hidden="">search</label>
+					<input id="searchfield" autocomplete="off" type="search" class="search-field" placeholder="Αναζήτηση" value="" name="s" title="">
+				</span>
+				<input type="submit" class="search-submit" value="Search">
+			</form></div></li><li id="menu-item-3922" class="ubermenu-item ubermenu-item-type-custom ubermenu-item-object-ubermenu-custom ubermenu-item-3922 ubermenu-item-level-0 ubermenu-column ubermenu-column-auto" ><div class="ubermenu-content-block ubermenu-custom-content ubermenu-custom-content-padded"><div class="rest_icons_menu"><div class="rest_icons_header"><div class="rest_icons_header_inner pin"><a href="diktio/"><div class="header_inner_text">Δίκτυο Φαρμακείων</div></a></div><div class="rest_icons_header_inner career"><a href="career/"><div class="header_inner_text">Καριέρα</div></a></div><div class="rest_icons_header_inner login_header"><div class="login-popup login_modal"><div class="header_inner_text login_logout_text">Εγγραφή/Σύνδεση</div></div></div></div></div></li></ul></nav>
+<!-- End UberMenu -->
+</nav>																</div>
+	</div>
+</div> <!-- end fusion sticky header wrapper -->
+				</div>
+				<div class="fusion-clearfix"></div>
+			</header>
+			<div style="background-image:url(uploads/2020/03/sosti-diatrofi.jpg);" class="post_feature_img"></div>		
+		
+		<div id="sliders-container">
+					</div>
+				
+		
+					<div class="fusion-page-title-bar fusion-page-title-bar-breadcrumbs fusion-page-title-bar-left">
+	<div class="fusion-page-title-row">
+		<div class="fusion-page-title-wrapper">
+			<div class="fusion-page-title-captions">
+
+				
+				
+			</div>
+
+												<div class="fusion-page-title-secondary">
+						<div class="fusion-breadcrumbs"><span itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop="url" href="https://#"><span itemprop="title">Home</span></a></span><span class="fusion-breadcrumb-sep">/</span><span itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop="url" href="category/life-up/"><span itemprop="title">Life Up</span></a></span><span class="fusion-breadcrumb-sep">/</span><span itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop="url" href="category/life-up/%ce%b4%ce%b9%ce%b1%cf%84%cf%81%ce%bf%cf%86%ce%ae/"><span itemprop="title">Διατροφή</span></a></span><span class="fusion-breadcrumb-sep">/</span><span class="breadcrumb-leaf">Σωστή διατροφή για καλή υγεία και ευεξία</span></div>					</div>
+							
+		</div>
+	</div>
+</div>
+		
+		
+						<main id="main" role="main" class="clearfix " style="">
+			<div class="fusion-row" style="">
+
+<section id="content" style="width: 100%;">
+		
+					<article id="post-5530" class="post post-5530 type-post status-publish format-standard has-post-thumbnail hentry category-life-up category-43">
+																		<h1 class="entry-title fusion-post-title">Σωστή διατροφή για καλή υγεία και ευεξία</h1>							
+										
+						<div class="post-content">
+				<div class="fusion-fullwidth fullwidth-box nonhundred-percent-fullwidth non-hundred-percent-height-scrolling"  style='background-color: rgba(255,255,255,0);background-position: center center;background-repeat: no-repeat;padding-top:20px;padding-right:0px;padding-bottom:20px;padding-left:0px;'><div class="fusion-builder-row fusion-row "><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_1  fusion-one-full fusion-column-first fusion-column-last 1_1"  style='margin-top:0px;margin-bottom:20px;'>
+					<div class="fusion-column-wrapper" style="padding: 0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<div class='singlepost_date'><img  title="Σωστή διατροφή για καλή υγεία και ευεξία"  alt="Σωστή διατροφή για καλή υγεία και ευεξία" src='uploads/2016/12/recent_calendar.png'>
+<span class='singlepost_date_text'></span>
+</div><div class="fusion-clearfix"></div>
+
+					</div>
+				</div><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_2  fusion-one-half fusion-column-first 1_2"  style='margin-top:0px;margin-bottom:20px;width:50%;width:calc(50% - ( ( 4% ) * 0.5 ) );margin-right: 4%;'>
+					<div class="fusion-column-wrapper" style="padding: 0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<div class="fusion-text">		<div class="social-sharing ss-social-sharing">
+				        <a onclick="return ss_plugin_loadpopup_js(this);" rel="external nofollow" class="ss-button-facebook" href="http://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2F#%2F%25cf%2583%25cf%2589%25cf%2583%25cf%2584%25ce%25ae-%25ce%25b4%25ce%25b9%25ce%25b1%25cf%2584%25cf%2581%25ce%25bf%25cf%2586%25ce%25ae-%25ce%25b3%25ce%25b9%25ce%25b1-%25ce%25ba%25ce%25b1%25ce%25bb%25ce%25ae-%25cf%2585%25ce%25b3%25ce%25b5%25ce%25af%25ce%25b1%2F" target="_blank" >Share on Facebook</a><a onclick="return ss_plugin_loadpopup_js(this);" rel="external nofollow" class="ss-button-twitter" href="http://twitter.com/intent/tweet/?text=%CE%A3%CF%89%CF%83%CF%84%CE%AE+%CE%B4%CE%B9%CE%B1%CF%84%CF%81%CE%BF%CF%86%CE%AE+%CE%B3%CE%B9%CE%B1+%CE%BA%CE%B1%CE%BB%CE%AE+%CF%85%CE%B3%CE%B5%CE%AF%CE%B1+%CE%BA%CE%B1%CE%B9+%CE%B5%CF%85%CE%B5%CE%BE%CE%AF%CE%B1&url=https%3A%2F%2F#%2F%25cf%2583%25cf%2589%25cf%2583%25cf%2584%25ce%25ae-%25ce%25b4%25ce%25b9%25ce%25b1%25cf%2584%25cf%2581%25ce%25bf%25cf%2586%25ce%25ae-%25ce%25b3%25ce%25b9%25ce%25b1-%25ce%25ba%25ce%25b1%25ce%25bb%25ce%25ae-%25cf%2585%25ce%25b3%25ce%25b5%25ce%25af%25ce%25b1%2F" target="_blank">Share on Twitter </a>	        	    </div>
+	    
+</div><div class="fusion-clearfix"></div>
+
+					</div>
+				</div><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_2  fusion-one-half fusion-column-last mail_print 1_2"  style='margin-top:0px;margin-bottom:20px;width:50%;width:calc(50% - ( ( 4% ) * 0.5 ) );'>
+					<div class="fusion-column-wrapper" style="padding: 0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<a href='mailto:?body=[sub]'> <p hidden>This paragraph should be hidden.</p>
+</a><span class='print custom2' style='cursor: pointer;'>
+</span><div class="fusion-clearfix"></div>
+
+					</div>
+				</div></div></div><div class="fusion-fullwidth fullwidth-box nonhundred-percent-fullwidth non-hundred-percent-height-scrolling"  style='background-color: rgba(255,255,255,0);background-position: center center;background-repeat: no-repeat;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;'><div class="fusion-builder-row fusion-row "><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_3_4  fusion-three-fourth fusion-column-first singlepost_content 3_4"  style='margin-top:0px;margin-bottom:20px;width:75%;width:calc(75% - ( ( 4% ) * 0.75 ) );margin-right: 4%;'>
+					<div class="fusion-column-wrapper" style="padding: 0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<div class="fusion-text"><p>Σωστή διατροφή, το μυστικό για μία ζωή γεμάτη υγεία! 2500 χρόνια πριν ο Ιπποκράτης έλεγε ότι «φάρμακο ας γίνει η τροφή σας και η τροφή σας ας γίνει φάρμακό σας». Σήμερα, εκατοντάδες επιστημονικές έρευνες συμπεραίνουν ότι ο πατέρας της ιατρικής είχε απόλυτο δίκιο. Είναι γεγονός ότι η ισορροπημένη και σωστή διατροφή προάγει την καλή υγεία και ευεξία του οργανισμού. Αντίθετα, η κακή διατροφή μπορεί να μετατραπεί σε «επικίνδυνο εχθρό».</p>
+<h2><strong>Ο σύγχρονος τρόπος ζωής εμπόδιο στην σωστή διατροφή</strong></h2>
+<p>Αν και στην πράξη η τήρηση μιας σωστής διατροφής έχει πολλές δυσκολίες λόγω των ταχυτήτων του σύγχρονου τρόπου ζωής, τα τελευταία χρόνια όλο και περισσότεροι άνθρωποι υιοθετούν υγιεινές επιλογές στην καθημερινότητά τους και προσπαθούν, κόντρα στις όποιες δυσκολίες, να κάνουν τη διαφορά. Στο πλαίσιο αυτό, μειώνουν δραστικά την κατανάλωση έτοιμων και επεξεργασμένων τροφίμων, αντικαθιστώντας τα με φρούτα και λαχανικά που ενισχύουν σημαντικά τις άμυνες του οργανισμού.</p>
+<h2><strong>Σωστή &amp; ισορροπημένη διατροφή με τις κατάλληλες βιταμίνες</strong></h2>
+<p>Μια σωστή διατροφή θα πρέπει να παρέχει στον οργανισμό όλα τα απαραίτητα στοιχεία που χρειάζεται για να αντέξει στις προκλήσεις της καθημερινότητας. Όλες οι βιταμίνες είναι σημαντικές για την καλή του λειτουργία, όμως κάποιες από αυτές, καλό θα ήταν να είναι παρούσες σε κάθε διαιτολόγιο!</p>
+<h2><strong>1. Τα ωμέγα-3 λιπαρά</strong></h2>
+<p>Αυτά τα πολυακόρεστα λιπαρά οξέα αποτελούν απαραίτητο συστατικό για την σωστή διατροφή μας. Πρόκειται για ένα πολύτιμο σύμμαχο καλής υγείας, καθώς μας προστατεύει από τα καρδιαγγειακά νοσήματα.</p>
+<p>Αξίζει να σημειωθεί ότι τα ωμέγα-3 λιπαρά δεν παράγονται από τον ανθρώπινο οργανισμό. Για το λόγο αυτό πρέπει να λαμβάνονται είτε από τις τροφές είτε από συμπληρώματα διατροφής.</p>
+<h3><strong>Σωστή διατροφή με Ω3 λιπαρά</strong></h3>
+<p>Οι τροφές που είναι πλούσιες σε ωμέγα-3 είναι: ο σολομός, οι σαρδέλες, ο γαύρος, η ρέγκα, το σκουμπρί, ο λιναρόσπορος, τα καρύδια και τα λαχανάκια Βρυξελλών.</p>
+<h2><strong> 2. Βιταμίνη D</strong></h2>
+<p>Η βιταμίνη D συμβάλλει σημαντικά στην φυσιολογική λειτουργία του ανοσοποιητικού συστήματος, αλλά και στην διατήρηση της φυσιολογικής κατάστασης των μυών, των οστών και των δοντιών.</p>
+<p>Ο ρόλος της είναι άκρως σημαντικός, καθώς κάθε κύτταρο του ανθρώπινου σώματος έχει υποδοχέα βιταμίνης D, γι’ αυτό μπορεί να παίξει ρόλο σχεδόν σε όλες τις λειτουργίες του οργανισμού.</p>
+<h3><strong>Τροφές με βιταμίνη D</strong></h3>
+<p>Οι καλύτερες πηγές της βιταμίνης D είναι τα λιπαρά ψάρια, όπως ο ξιφίας, ο σολομός και το σκουμπρί.</p>
+<h2><strong>3. Βιταμίνη Β6</strong></h2>
+<p>Η βιταμίνη Β6, ή Πυριδοξίνη, τροφοδοτεί με ενέργεια τον οργανισμό.</p>
+<p>Η έλλειψή της συνδέεται συνήθως με ζαλάδες, κόπωση, αναιμία και δερματικά προβλήματα, όπως δερματίτιδες.</p>
+<p>Μία σωστή και ισορροπημένη διατροφή πρέπει πάντα να περιλαμβάνει καλές πηγές τη βιταμίνης Β6. Μερικές από αυτές είναι τα ψάρια, το βοδινό συκώτι και τα πουλερικά, τα ρεβίθια και τα φασόλια.</p>
+<h2> <strong>4. Βιταμίνη Β12</strong></h2>
+<p>Ζωτικής σημασίας για την καλή λειτουργία του οργανισμού είναι η Βιταμίνη Β12, καθώς παίζει σημαντικό ρόλο στον μεταβολισμό των πρωτεϊνών.</p>
+<p>Ταυτόχρονα, συμβάλλει στη φυσιολογική λειτουργία του νευρικού συστήματος αλλά και στη δημιουργία των ερυθρών αιμοσφαιρίων. Παράλληλα, προστατεύει από την αναιμία, που ως γνωστόν προκαλεί κόπωση και αδυναμία.</p>
+<h3><strong>Σωστή διατροφή με βιταμίνη Β12</strong></h3>
+<p>Η βιταμίνη Β12 βρίσκεται κυρίως στα μύδια, στο κόκκινο κρέας, στα πουλερικά και τα γαλακτοκομικά.</p>
+<h2><strong>5. Βιταμίνη C</strong></h2>
+<p>Η βιταμίνη C δεν παράγεται από το σώμα και για αυτό πρέπει να λαμβάνεται από τις τροφές. Μπορεί να είναι γνωστή ότι καταπολεμά τα κρυολογήματα και τις ιώσεις, αλλά παίζει επίσης σημαντικό ρόλο στην απορρόφηση του σιδήρου, στην ενίσχυση της άμυνας του ανοσοποιητικού, στην ενδυνάμωση των οστών και στην προαγωγή της ενέργειας και της ψυχικής ευεξίας.</p>
+<h3><strong>Διατροφή πλούσια σε βιταμίνη C</strong></h3>
+<p>Για μία σωστή και ισορροπημένη διατροφή, πλούσια σε βιταμίνη C, επιλέξτε τρόφιμα όπως οι πιπεριές, τα εσπεριδοειδή, το ακτινίδιο, το μπρόκολο και τα λαχανάκια Βρυξελλών.</p>
+<h2><strong>6. Βιταμίνη Ε</strong></h2>
+<p>Η βιταμίνη Ε είναι ένα ισχυρό αντιοξειδωτικό και η βασική της λειτουργία είναι να  προστατεύει τα κύτταρα, τους ιστούς και τα όργανα του σώματος από τις βλάβες που προκαλούν οι ελεύθερες ρίζες.</p>
+<p>Παράλληλα, η βιταμίνη Ε είναι εξίσου σημαντική για τον σχηματισμό των ερυθρών αιμοσφαιρίων του αίματος, ενώ βοηθά στην αποφυγή της πήξης του αίματος (σχηματισμός θρόμβων).</p>
+<p><strong>Σωστή διατροφή με βιταμίνη Ε</strong></p>
+<p>Η βιταμίνη Ε βρίσκεται στα φυτικά έλαια (όπως έλαια σόγιας), στους καρπούς με κέλυφος, στα πράσινα φυλλώδη λαχανικά και σε όσα τρόφιμα είναι εμπλουτισμένα με βιταμίνη Ε.</p>
+<h2><strong>7. Βιταμίνη Κ2</strong></h2>
+<p>Η βιταμίνη Κ2 είναι εξίσου πολύτιμη, καθώς χωρίς αυτή ο οργανισμός αδυνατεί να σταματήσει μια αιμορραγία σε περίπτωση τραυματισμού.</p>
+<p>Την ίδια στιγμή η βιταμίνη Κ εμπλέκεται και σε άλλες σημαντικές βιολογικές λειτουργίες, όπως στον μεταβολισμό των οστών, στην αγγειακή υγεία κ.λπ.</p>
+<h3><strong>Βασικές πηγές βιταμίνης Κ2</strong></h3>
+<p>Τα πράσινα φυλλώδη λαχανικά, όπως το σπανάκι και το μαρούλι, είναι οι καλύτερες πηγές αυτής της βιταμίνης.</p>
+<p><em>Βρήκατε ενδιαφέρον το νέο μας άρθρο<strong> «Σωστή διατροφή για καλή υγεία και ευεξία»;
+</strong></em><em>Διαβάστε περισσότερα κείμενα για την διατροφή <a href="lifeup/#cat_diatrofi">εδώ</a></em><em>.</em></p>
+</div><div class="fusion-clearfix"></div>
+
+					</div>
+				</div><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_4  fusion-one-fourth fusion-column-last post_quote 1_4"  style='margin-top:0px;margin-bottom:20px;width:25%;width:calc(25% - ( ( 4% ) * 0.25 ) );'>
+					<div class="fusion-column-wrapper" style="padding: 0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<div class="fusion-text"><p>Σωστή διατροφή, το μυστικό για μία ζωή γεμάτη υγεία!</p>
+</div><img  title="Σωστή διατροφή για καλή υγεία και ευεξία"  alt="Σωστή διατροφή για καλή υγεία και ευεξία" class="quote_open" src="uploads/2017/03/quote_open.png" /><img  title="Σωστή διατροφή για καλή υγεία και ευεξία"  alt="Σωστή διατροφή για καλή υγεία και ευεξία" class="quote_close" src="uploads/2017/03/quote_close.png" /><div class="fusion-clearfix"></div>
+
+					</div>
+				</div><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_1  fusion-one-full fusion-column-first fusion-column-last singlepost_content 1_1"  style='margin-top:0px;margin-bottom:0px;'>
+					<div class="fusion-column-wrapper" style="padding: 0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<div class="fusion-text"></div><div class="fusion-clearfix"></div>
+
+					</div>
+				</div><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_1  fusion-one-full fusion-column-first fusion-column-last related_post_singlepost 1_1"  style='margin-top:0px;margin-bottom:20px;'>
+					<div class="fusion-column-wrapper" style="padding: 0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<h3>Σχετικά <span>Άρθρα</span></h3><style>
+.blog-meta h4.fusion-responsive-typography-calculated {
+    background-color: #8DC63F;
+    padding: 10px 5px !important;
+    margin-top: 0px;
+    text-align: center;
+    color: #fff;
+}
+</style><div class='blog-wrapper'>
+				<div class='blog-row'><a class='blog-more' href='%ce%b2%ce%b9%cf%84%ce%b1%ce%bc%ce%af%ce%bd%ce%b7-d-%cf%84%cf%81%cf%8c%cf%86%ce%b9%ce%bc%ce%b1/'><div class='post-wrap'>
+						<img  title="Σωστή διατροφή για καλή υγεία και ευεξία"  alt="Σωστή διατροφή για καλή υγεία και ευεξία" src='uploads/2017/09/vitamin-d-food.jpg'/>
+						<div class='blog-meta'>
+							<h4>Βιταμίνη D, τρόφιμα και ιδανική ημερήσια κατανάλωση</h4>
+						<div class='post-text'>Το ζήτημα "βιταμίνη D τρόφιμα και συνιστώμενη κατανάλωση" απασχολεί ιδιαίτερα τον Παγκόσμιο[...]</div>
+						</div>
+					  </div>
+					  </a><a class='blog-more' href='%ce%bc%ce%b1%ce%b3%ce%bd%ce%ae%cf%83%ce%b9%ce%bf-%cf%80%ce%bf%cf%85-%ce%b2%ce%bf%ce%b7%ce%b8%ce%ac%ce%b5%ce%b9/'><div class='post-wrap'>
+						<img  title="Σωστή διατροφή για καλή υγεία και ευεξία"  alt="Σωστή διατροφή για καλή υγεία και ευεξία" src='uploads/2017/06/Magnisio_1920x1920.png'/>
+						<div class='blog-meta'>
+							<h4>Μαγνήσιο: που βοηθάει το πολύτιμο αυτό μέταλλο;</h4>
+						<div class='post-text'>Το μαγνήσιο που βοηθάει τόσο σε κυτταρικό όσο και σε ιστικό επίπεδο,[...]</div>
+						</div>
+					  </div>
+					  </a><a class='blog-more' href='%ce%ad%ce%bb%ce%bb%ce%b5%ce%b9%cf%88%ce%b7-%cf%83%ce%b9%ce%b4%ce%ae%cf%81%ce%bf%cf%85-%ce%b7-%cf%80%ce%b9%ce%bf-%cf%83%cf%85%cf%87%ce%bd%ce%ae-%ce%b4%ce%b9%ce%b1%cf%84%cf%81%ce%bf%cf%86%ce%b9%ce%ba/'><div class='post-wrap'>
+						<img  title="Σωστή διατροφή για καλή υγεία και ευεξία"  alt="Σωστή διατροφή για καλή υγεία και ευεξία" src='uploads/2017/03/diatrofi-eleipsisidirou.jpg'/>
+						<div class='blog-meta'>
+							<h4>Έλλειψη σιδήρου | Η πιο συχνή διατροφική ανεπάρκεια</h4>
+						<div class='post-text'>Σήμερα, η έλλειψη σιδήρου είναι η πιο συχνή διατροφική ανεπάρκεια. Στη σιδηροπενική[...]</div>
+						</div>
+					  </div>
+					  </a><a class='blog-more' href='%ce%b1%ce%b8%ce%bb%ce%b7%cf%84%ce%b9%ce%ba%ce%ae-%ce%b4%ce%b9%ce%b1%cf%84%cf%81%ce%bf%cf%86%ce%ae-%ce%b3%ce%b9%ce%b1-%ce%b1%cf%8d%ce%be%ce%b7%cf%83%ce%b7-%ce%bc%cf%85%cf%8a%ce%ba%ce%ae%cf%82-%ce%bc/'><div class='post-wrap'>
+						<img  title="Σωστή διατροφή για καλή υγεία και ευεξία"  alt="Σωστή διατροφή για καλή υγεία και ευεξία" src='uploads/2018/02/athletic_diet.jpg'/>
+						<div class='blog-meta'>
+							<h4>Αθλητική διατροφή για αύξηση μυϊκής μάζας</h4>
+						<div class='post-text'>Η αθλητική διατροφή για αύξηση μυϊκής μάζας αποτελεί βασική προτεραιότητα για μεγάλο[...]</div>
+						</div>
+					  </div>
+					  </a><div class="fusion-clearfix"></div>
+
+					</div>
+				</div></div></div>		</p>
+<div class="social-sharing ss-social-sharing">
+				        <a onclick="return ss_plugin_loadpopup_js(this);" rel="external nofollow" class="ss-button-facebook" href="http://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2F#%2F%25cf%2583%25cf%2589%25cf%2583%25cf%2584%25ce%25ae-%25ce%25b4%25ce%25b9%25ce%25b1%25cf%2584%25cf%2581%25ce%25bf%25cf%2586%25ce%25ae-%25ce%25b3%25ce%25b9%25ce%25b1-%25ce%25ba%25ce%25b1%25ce%25bb%25ce%25ae-%25cf%2585%25ce%25b3%25ce%25b5%25ce%25af%25ce%25b1%2F" target="_blank" >Share on Facebook</a><a onclick="return ss_plugin_loadpopup_js(this);" rel="external nofollow" class="ss-button-twitter" href="http://twitter.com/intent/tweet/?text=%CE%A3%CF%89%CF%83%CF%84%CE%AE+%CE%B4%CE%B9%CE%B1%CF%84%CF%81%CE%BF%CF%86%CE%AE+%CE%B3%CE%B9%CE%B1+%CE%BA%CE%B1%CE%BB%CE%AE+%CF%85%CE%B3%CE%B5%CE%AF%CE%B1+%CE%BA%CE%B1%CE%B9+%CE%B5%CF%85%CE%B5%CE%BE%CE%AF%CE%B1&url=https%3A%2F%2F#%2F%25cf%2583%25cf%2589%25cf%2583%25cf%2584%25ce%25ae-%25ce%25b4%25ce%25b9%25ce%25b1%25cf%2584%25cf%2581%25ce%25bf%25cf%2586%25ce%25ae-%25ce%25b3%25ce%25b9%25ce%25b1-%25ce%25ba%25ce%25b1%25ce%25bb%25ce%25ae-%25cf%2585%25ce%25b3%25ce%25b5%25ce%25af%25ce%25b1%2F" target="_blank">Share on Twitter</a>	        	    </div>
+							</div>
+
+												<div class="fusion-meta-info"><div class="fusion-meta-info-wrapper">
+	
+			<span class="vcard rich-snippet-hidden">
+			<span class="fn">
+				<a href="author/admin/" title="Άρθρα του/της admin" rel="author">admin</a>			</span>
+		</span>
+	
+	
+
+	
+	
+			<span class="updated rich-snippet-hidden">
+			2021-04-06T16:26:59+00:00		</span>
+	
+<span>Μάρτιος 6, 2020</span><span class="fusion-inline-sep">|</span></div></div>																								
+																	</article>
+		</section>
+					
+				</div>  <!-- fusion-row -->
+			</main>  <!-- #main -->
+			
+			
+			
+										
+				<div class="fusion-footer">
+						
+	<footer role="contentinfo" class="fusion-footer-widget-area fusion-widget-area">
+		<div class="fusion-row">
+			<div class="fusion-columns fusion-columns-1 fusion-widget-area">
+				
+																									<div class="fusion-column fusion-column-last col-lg-12 col-md-12 col-sm-12">
+							<section id="text-3" class="fusion-footer-widget-column widget widget_text">			<div class="textwidget"><div class="title_footer"><span style="font-family:opensansLight">Let's</span> <span style="font-family:opensansReg">Connect</span></div>
+<div class="social_footer"><a href="https://www.facebook.com/LambertsGreece/" target="_blank"><img src="uploads/2016/11/fb_footer.png" alt="fb_footer"></a><a href="https://twitter.com/LambertsGreece" target="_blank"><img src="uploads/2016/11/footer_twiiter.png" alt="twiter_footer"></a><a href="https://www.youtube.com/user/greenimportgr" target="_blank"><img src="uploads/2016/11/fb_yt.png" alt="fb_yt"></a><a href="https://www.instagram.com/lambertsgreece/" target="_blank"><img src="uploads/2017/04/insta_footer.png" alt="insta_footer"></a></div>
+<div class="circles_footer"><a href="https://www.google.gr/maps/dir//(37.93112392481189,23.728686501852376)" target="_blank"><div class="circle_footer1"><div class="img_circle1"><img src="uploads/2017/03/visit_us.png" alt="visit_us"><div class="footer_circle_text1">ΔΙΕΥΘΥΝΣΗ</div></div></div></a><a href="mailto:lamberts@greenimport.gr"><div class="circle_footer2"><div class="img_circle2"><img src="uploads/2016/11/footer_email_us.png" alt="footer_email"><div class="footer_circle_text2">EMAIL</div></div></div></a><a href="tel:+2109329139"><div class="circle_footer3"><div class="img_circle3"><img src="uploads/2016/11/footer_call_us.png" alt="call_us_footer"><div class="footer_circle_text3">ΤΗΛΕΦΩΝΟ</div></div></div></a></div>
+<div class="contact_footer_header"><img src="uploads/2017/04/contact_form_background_gr.png" alt="contact_form"><div class="newsletter_form"><div role="form" class="wpcf7" id="wpcf7-f648-o1" lang="el" dir="ltr">
+<div class="screen-reader-response"></div>
+<form action="%CF%83%CF%89%CF%83%CF%84%CE%AE-%CE%B4%CE%B9%CE%B1%CF%84%CF%81%CE%BF%CF%86%CE%AE-%CE%B3%CE%B9%CE%B1-%CE%BA%CE%B1%CE%BB%CE%AE-%CF%85%CE%B3%CE%B5%CE%AF%CE%B1/#wpcf7-f648-o1" method="post" class="wpcf7-form mailchimp-ext-0.5.41" novalidate="novalidate">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="648" />
+<input type="hidden" name="_wpcf7_version" value="5.0.2" />
+<input type="hidden" name="_wpcf7_locale" value="el" />
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f648-o1" />
+<input type="hidden" name="_wpcf7_container_post" value="0" />
+</div>
+<p><label for="namey" hidden="">text</label><br />
+<label for="emaily" hidden="">text</label><br />
+<label for="text32" hidden="">text</label></p>
+<div class="newsletter_first_two_inputs">
+<div class="form_name">
+<div class="input_title">Ονοματεπώνυμο </div>
+<p><span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" id="namey" aria-required="true" aria-invalid="false" /></span></p></div>
+<div class="form_surname">
+<div class="input_title">Email </div>
+<p><span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" id="emaily" aria-required="true" aria-invalid="false" /></span></p></div>
+</div>
+<div class="form_text">
+<div class="input_title">Μήνυμα</div>
+<p><span class="wpcf7-form-control-wrap textarea-32"><textarea name="textarea-32" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" id="text32" aria-required="true" aria-invalid="false"></textarea></span></p></div>
+<div style="border-radius: 10px;background-color:#fff;height: 60px;overflow-y: auto;margin-bottom: 20px;border: 1px solid #aaa9a9 !important;padding: 7px 15px;color: #58585A;font-family: opensansReg, sans-serif !important;font-size: 13px;">Πατώντας αποστολή γνωρίζετε ότι μας αποστέλλετε τα στοιχεία σας προκειμένου να επικοινωνήσουμε μαζί σας, για τη διεκπεραίωση του αιτήματος σας. Η εταιρία Lamberts δεν θα μοιραστεί με κανένα τρίτο τα στοιχεία σας.</div>
+<p><input type="submit" value="ΑΠΟΣΤΟΛΗ" class="wpcf7-form-control wpcf7-submit" /></p>
+<div class="wpcf7-response-output wpcf7-display-none"></div><p style="display: none !important"><span class="wpcf7-form-control-wrap referer-page"><input type="hidden" name="referer-page" value="http://Direct%20Visit" data-value="http://Direct%20Visit" class="wpcf7-form-control wpcf7-text referer-page" aria-invalid="false"></span></p>
+<!-- Chimpmail extension by Renzo Johnson --></form></div></div></div></div>
+		<div style="clear:both;"></div></section>																					</div>
+																																																						
+				<div class="fusion-clearfix"></div>
+			</div> <!-- fusion-columns -->
+		</div> <!-- fusion-row -->
+	</footer> <!-- fusion-footer-widget-area -->
+
+	
+	<footer id="footer" class="fusion-footer-copyright-area">
+		<div class="fusion-row">
+			<div class="fusion-copyright-content">
+
+				<div class="fusion-copyright-notice">
+		<div>
+		<div class="copyright_left"><span class="copyright_first">ALL RIGHTS RESERVED</span>   |  <a href="privacy-policy/"><span class="copyright">ΠΟΛΙΤΙΚΗ ΑΠΟΡΡΗΤΟΥ</span></a>   |  <a href="terms-of-use/"><span class="copyright">ΟΡΟΙ & ΠΡΟΫΠΟΘΕΣΕΙΣ</span></a>   |  <a href="οικονομικά-στοιχεία/"><span class="copyright">ΙΣΟΛΟΓΙΣΜΟΣ</span></a> </div><div class="copyright_right">Design & Development by <a href="http://flipnewmedia.com" target="_blank"><img src="uploads/2017/03/F-1.png" alt="F-1" style="height: 15px;">Flip New Media®</a></div>	</div>
+</div>
+<div class="fusion-social-links-footer">
+	</div>
+
+			</div> <!-- fusion-fusion-copyright-content -->
+		</div> <!-- fusion-row -->
+	</footer> <!-- #footer -->
+				</div> <!-- fusion-footer -->
+			
+								</div> <!-- wrapper -->
+
+								<a class="fusion-one-page-text-link fusion-page-load-link"></a>
+
+		<style type='text/css'>
+			.fb_iframe_widget > span {display: table !important;}
+			.woo-social-buttons {margin:10px 0;}
+			.woo-social-buttons img {vertical-align: top;}
+			.woo-social-buttons span.custom {float:left; margin:0 5px 5px 0; }
+			.woo-social-buttons span.nocount, .woo-social-buttons span.hcount {float:left; margin:0 5px 5px 0; height:21px;}
+			.woo-social-buttons span.vcount {float:left; margin:0 5px 5px 0; height:65px;}
+			.woo-social-buttons span.yithqv {float:left; margin:0 5px 5px 0; height:36px;}
+			.woo-social-buttons iframe {margin: 0px !important; padding: 0px !important; vertical-align:baseline;}
+			.woo-social-buttons .smsb_pinterest.vcount {position:relative; top:30px}
+			.woo-social-buttons .smsb_tumblr iframe {height:20px !important; width:50px !important;} 
+			.woo-social-buttons .smsb_tumblr.hcount iframe {height:20px !important; width:72px !important;}
+			.woo-social-buttons .smsb_tumblr.vcount iframe {height:40px !important; width:55px !important;}
+			.woo-social-buttons .smsb_stumbleupon.vcount iframe {height:60px !important; width:50px !important;}
+			.woo-social-buttons .smsb_vkontakte table tr > td {padding:0px; line-height:auto;}
+			.woo-social-buttons .smsb_vkontakte a {height:auto !important;}		
+		  </style>
+  <aside id="moove_gdpr_cookie_info_bar" class="moove-gdpr-info-bar-hidden moove-gdpr-align-center moove-gdpr-dark-scheme gdpr_infobar_postion_bottom" role="note" aria-label="GDPR Cookie Banner" style="display: none;">
+    <div class="moove-gdpr-info-bar-container">
+      <div class="moove-gdpr-info-bar-content">
+        
+<div class="moove-gdpr-cookie-notice">
+  <p>Χρησιμοποιούμε cookies για να μπορείτε να απολαμβάνετε την καλύτερη δυνατή εμπειρία στην ιστοσελίδα μας. Μπορείτε να μάθετε περισσότερα για το ποια cookies χρησιμοποιούμε και να τα απενεργοποιήσετε στις <span role="link" tabindex="0" data-href="#moove_gdpr_cookie_modal" class="change-settings-button">ρυθμίσεις</span>.</p>
+</div>
+<!--  .moove-gdpr-cookie-notice -->        
+<div class="moove-gdpr-button-holder">
+  <button class="mgbutton moove-gdpr-infobar-allow-all" aria-label="Αποδοχή">Αποδοχή</button>
+  </div>
+<!--  .button-container -->      </div>
+      <!-- moove-gdpr-info-bar-content -->
+    </div>
+    <!-- moove-gdpr-info-bar-container -->
+  </aside>
+  <!-- #moove_gdpr_cookie_info_bar -->
+ <div id="myModal" class="modal">
+<!-- Modal content -->
+	 <div class="modal-content">
+    <span class="close"></span>
+<div class="login_popup_all" style="overflow:hidden;"><div class="register_popup"><div class="popup_title">Είστε γιατρός ή Φαρμακοποιός;</div><div class="register_popup_text">Κάντε εγγραφή και δημιουργήστε τον προσωπικό σας λογαριασμό στην Lamberts για να απολαμβάνετε τα αποκλειστικά προνόμια μας:
+<ul>
+<li>Αποκτάτε πρόσβαση σε όλες τις τελευταίες επιστημονικές εξελίξεις μέσα από πληθώρα κλινικών μελετών και άρθρων</li><li>Aποκτάτε πρόσβαση στο επιστημονικό υλικό της Lamberts</li><li>Ενημερώνεστε για τα τρέχοντα εκπαιδευτικά προγράμματα</li><li>Ενημερώνεστε για τα επερχόμενα events</li></ul></div><a href="#/registration/"><span class="register_popup_button">ΕΓΓΡΑΦΗ</span></a></div><div class="login_popup"><div class="popup_title">Σύνδεση μέλους</div><div class="register_popup_text">Συνδεθείτε στον λογαριασμό σας</div><div class="popup_login_form"><label for="rememberme" hidden="">Remember me</label>
+		<form name="loginform-wplfta" id="loginform-wplfta" action="gi_secure_backend_url/" method="post">
+			
+			<p class="login-username">
+				<label for="user_login">ΟΝΟΜΑ</label>
+				<input type="text" name="log" id="user_login" class="input" value="" size="20" />
+			</p>
+			<p class="login-password">
+				<label for="user_pass">ΚΩΔΙΚΟΣ</label>
+				<input type="password" name="pwd" id="user_pass" class="input" value="" size="20" />
+			</p>
+			
+			<p class="login-remember"><label><input name="rememberme" type="checkbox" id="rememberme" value="forever" /> Να με θυμάσαι</label></p>
+			<p class="login-submit">
+				<input type="submit" name="wp-submit" id="wp-submit" class="button button-primary" value="ΣΥΝΔΕΣΗ" />
+				<input type="hidden" name="redirect_to" value="members/" />
+			</p>
+			
+		</form></div><div class="register_popup_text2">ΞΕΧΑΣΑΤΕ ΤΟΝ ΚΩΔΙΚΟ ΣΑΣ;</div><div class="register_popup_text3">ΔΕΝ ΕΧΕΤΕ ΛΟΓΑΡΙΑΣΜΟ; <a style="text-decoration: underline; color: inherit;" href="#/registration/">ΕΓΓΡΑΦΕΙΤΕ</a>! </div></div></div>
+<div class="forget_password_form"><!-- This Password reset form is built and powered by ProfilePress WordPress plugin - https://profilepress.net -->
+<style type="text/css">
+ /* css class for the password reset form generated errors */
+
+.profilepress-reset-status {
+    background-color: transparent;
+    color: red;
+    padding: 24px 23px 20px;
+    font-family: opensansReg;
+    border: medium none;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1.4;
+    margin: 4px 0;
+    transition: border 0.25s linear 0s, color 0.25s linear 0s, background-color 0.25s linear 0s;
+}
+
+/*
+This form uses the FlatUI css stylesheet that ships with the plugin hence this look.
+It's actually very pretty when implemented.
+*/ 
+</style><form method="post"><div class="login-form">
+
+<div class="reset_title">ΑΝΑΚΤΗΣΗ ΚΩΔΙΚΟΥ </div>
+
+<div class="form-group">
+<input name="user_login" type='text' title="Username or Email" value="" class="form-control login-field" id="login" placeholder="Username or E-mail:"  required='required'/>
+
+<label class="login-field-icon fui-user" for="login"></label>
+</div>
+
+
+<p>
+<input type='submit' name="password_reset_submit" title="" value="ΑΠΟΣΤΟΛΗ" id="submit-button" class="btn btn-primary btn-lg btn-block"  />
+</p>
+
+</div></form>
+<!-- / ProfilePress WordPress plugin. -->
+</div>
+	 </div>
+</div>
+
+ <div id="myVideoModal" class="modal">
+<!-- Modal content -->
+	 <div class="modal-content">
+    <span class="close"></span>
+		 	 <div class="youtube-video-place" data-yt-url='https://www.youtube.com/embed/0I3y0fJxpTU?autoplay=0&rel=0'>
+		 <img src="uploads/2020/09/vitamins.jpg" async class="play-youtube-video">
+		 </div>	
+<!--<iframe width="100%" height="400" src="https://www.youtube.com/embed/0I3y0fJxpTU?autoplay=0&rel=0" frameborder="0" allowfullscreen="1"></iframe>-->
+	 </div>
+</div>
+ <div id="myVideoModal2" class="modal">
+<!-- Modal content -->
+	 <div class="modal-content">
+    <span class="close"></span>
+		 <div class="youtube-video-place" data-yt-url="https://www.youtube.com/embed/qpt_FAPd9cI?autoplay=0&rel=0">
+		 <img src="uploads/2020/09/fish_oil.jpg" async class="play-youtube-video">
+		 </div>																										
+<!--<iframe width="100%" height="400" src="https://www.youtube.com/embed/qpt_FAPd9cI?autoplay=0&rel=0" frameborder="0" allowfullscreen="1"></iframe>-->
+	 </div>
+</div>
+
+
+
+				<script type="text/javascript">
+				jQuery( document ).ready( function() {
+					var ajaxurl = 'wp-admin/admin-ajax.php';
+					if ( 0 < jQuery( '.fusion-login-nonce' ).length ) {
+						jQuery.get( ajaxurl, { 'action': 'fusion_login_nonce' }, function( response ) {
+							jQuery( '.fusion-login-nonce' ).html( response );
+						});
+					}
+				});
+				</script>
+					<script type="text/javascript">
+		var c = document.body.className;
+		c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+		document.body.className = c;
+	</script>
+	<!-- <link rel='stylesheet' id='tooltip-css-css'  href='wp-content/plugins/woocommerce-products-filter/js/tooltip/css/tooltipster.bundle.min.css?ver=cfa2742b662d7bd05195f9fdd310a41b' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='tooltip-css-noir-css'  href='wp-content/plugins/woocommerce-products-filter/js/tooltip/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-noir.min.css?ver=cfa2742b662d7bd05195f9fdd310a41b' type='text/css' media='all' /> -->
+<link rel="stylesheet" type="text/css" href="cache/wpfc-minified/fi5z9vvn/28b5x.css" media="all"/>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/#\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"\u0395\u03c0\u03b9\u03b2\u03b5\u03b2\u03b1\u03b9\u03ce\u03c3\u03c4\u03b5 \u03cc\u03c4\u03b9 \u03b4\u03b5\u03bd \u03b5\u03af\u03c3\u03c4\u03b5 \u03c1\u03bf\u03bc\u03c0\u03cc\u03c4."}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='plugins/contact-form-7/includes/js/scripts.js@ver=5.0.2'></script>
+<script type='text/javascript' src='js/jquery/ui/effect.min.js@ver=1.11.4'></script>
+<script type='text/javascript' src='plugins/woocommerce-products-carousel-all-in-one/owl.carousel/owl.carousel.js@ver=2.0.0'></script>
+<script type='text/javascript' src='plugins/woocommerce-products-carousel-all-in-one/owl.carousel/jquery.mousewheel.min.js@ver=3.1.12'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"\u03a0\u03c1\u03bf\u03b2\u03bf\u03bb\u03ae \u03ba\u03b1\u03bb\u03b1\u03b8\u03b9\u03bf\u03cd","cart_url":"https:\/\/#","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='plugins/woocommerce/assets/js/frontend/add-to-cart.min.js@ver=3.4.0'></script>
+<script type='text/javascript' src='plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js@ver=2.70'></script>
+<script type='text/javascript' src='plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js@ver=2.1.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='plugins/woocommerce/assets/js/frontend/woocommerce.min.js@ver=3.4.0'></script>
+<!--[if IE 9]>
+<script type='text/javascript' src='wp-content/themes/Avada/includes/lib/assets/min/js/general/fusion-ie9.js?ver=1'></script>
+<![endif]-->
+<script type='text/javascript' src='js/comment-reply.min.js@ver=cfa2742b662d7bd05195f9fdd310a41b'></script>
+<script type='text/javascript' src='themes/Avada/includes/lib/assets/min/js/library/bootstrap.collapse.js@ver=3.1.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var fusionEqualHeightVars = {"content_break_point":"800"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='themes/Avada/includes/lib/assets/min/js/general/fusion-equal-heights.js@ver=1'></script>
+<script type='text/javascript' src='plugins/fusion-builder/assets/js/min/general/fusion-toggles.js@ver=1'></script>
+<script type='text/javascript' src='themes/Avada/includes/lib/assets/min/js/library/cssua.js@ver=2.1.28'></script>
+<script type='text/javascript' src='themes/Avada/includes/lib/assets/min/js/library/jquery.waypoints.js@ver=2.0.3'></script>
+<script type='text/javascript' src='themes/Avada/includes/lib/assets/min/js/library/modernizr.js@ver=3.3.1'></script>
+<script type='text/javascript' src='themes/Avada/includes/lib/assets/min/js/general/fusion-waypoints.js@ver=1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var fusionAnimationsVars = {"disable_mobile_animate_css":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='plugins/fusion-builder/assets/js/min/general/fusion-animations.js@ver=1'></script>
+<script type='text/javascript' src='themes/Avada/includes/lib/assets/min/js/library/isotope.js@ver=3.0.4'></script>
+<script type='text/javascript' src='themes/Avada/includes/lib/assets/min/js/library/packery.js@ver=2.0.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var fusionLightboxVideoVars = {"lightbox_video_width":"1280","lightbox_video_height":"720"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='themes/Avada/includes/lib/assets/min/js/library/jquery.ilightbox.js@ver=2.2.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var fusionLightboxVars = {"status_lightbox":"1","lightbox_gallery":"1","lightbox_skin":"metro-white","lightbox_title":"1","lightbox_arrows":"1","lightbox_slideshow_speed":"5000","lightbox_autoplay":"","lightbox_opacity":"0.90","lightbox_desc":"1","lightbox_social":"1","lightbox_deeplinking":"1","lightbox_path":"vertical","lightbox_post_images":"1","lightbox_animation_speed":"Normal"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='themes/Avada/includes/lib/assets/min/js/general/fusion-lightbox.js@ver=1'></script>
+<script type='text/javascript' src='themes/Avada/includes/lib/assets/min/js/library/imagesLoaded.js@ver=3.1.8'></script>
+<script type='text/javascript' src='plugins/fusion-builder/assets/js/min/general/fusion-gallery.js@ver=1'></script>
+<script type='text/javascript' src='plugins/fusion-builder/assets/js/min/general/fusion-title.js@ver=1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var fusionBgImageVars = {"content_break_point":"800"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='plugins/fusion-builder/assets/js/min/general/fusion-column-bg-image.js@ver=1'></script>
+<script type='text/javascript' src='plugins/fusion-builder/assets/js/min/general/fusion-column.js@ver=1'></script>
+<script type='text/javascript' src='themes/Avada/includes/lib/assets/min/js/library/bootstrap.transition.js@ver=3.3.6'></script>
+<script type='text/javascript' src='themes/Avada/includes/lib/assets/min/js/library/bootstrap.tab.js@ver=3.1.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var fusionTabVars = {"content_break_point":"800"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='plugins/fusion-builder/assets/js/min/general/fusion-tabs.js@ver=1'></script>
+<script type='text/javascript' src='plugins/fusion-builder/assets/js/min/general/fusion-events.js@ver=1'></script>
+<script type='text/javascript' src='plugins/fusion-builder/assets/js/min/general/fusion-content-boxes.js@ver=1'></script>
+<script type='text/javascript' src='plugins/fusion-builder/assets/js/min/general/fusion-syntax-highlighter.js@ver=1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var fusionRecentPostsVars = {"infinite_loading_text":"<em>Loading the next set of posts...<\/em>","infinite_finished_msg":"<em>All items displayed.<\/em>","slideshow_autoplay":"1","slideshow_speed":"7000","pagination_video_slide":"","status_yt":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='plugins/fusion-builder/assets/js/min/general/fusion-recent-posts.js@ver=1'></script>
+<script type='text/javascript' src='themes/Avada/includes/lib/assets/min/js/library/jquery.fade.js@ver=1'></script>
+<script type='text/javascript' src='themes/Avada/includes/lib/assets/min/js/library/jquery.requestAnimationFrame.js@ver=1'></script>
+<script type='text/javascript' src='themes/Avada/includes/lib/assets/min/js/library/fusion-parallax.js@ver=1'></script>
+<script type='text/javascript' src='themes/Avada/includes/lib/assets/min/js/library/jquery.fitvids.js@ver=1.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var fusionVideoGeneralVars = {"status_vimeo":"0","status_yt":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='themes/Avada/includes/lib/assets/min/js/library/fusion-video-general.js@ver=1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var fusionVideoBgVars = {"status_vimeo":"0","status_yt":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='themes/Avada/includes/lib/assets/min/js/library/fusion-video-bg.js@ver=1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var fusionContainerVars = {"content_break_point":"800","container_hundred_percent_height_mobile":"0","is_sticky_header_transparent":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='plugins/fusion-builder/assets/js/min/general/fusion-container.js@ver=1'></script>
+<script type='text/javascript' src='plugins/fusion-builder/assets/js/min/library/jquery.countTo.js@ver=1'></script>
+<script type='text/javascript' src='plugins/fusion-builder/assets/js/min/library/jquery.countdown.js@ver=1.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var fusionVideoVars = {"status_vimeo":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='plugins/fusion-builder/assets/js/min/general/fusion-video.js@ver=1'></script>
+<script type='text/javascript' src='themes/Avada/includes/lib/assets/min/js/library/jquery.hoverintent.js@ver=1'></script>
+<script type='text/javascript' src='themes/Avada/assets/min/js/general/avada-vertical-menu-widget.js@ver=1'></script>
+<script type='text/javascript' src='themes/Avada/includes/lib/assets/min/js/library/bootstrap.modal.js@ver=3.1.1'></script>
+<script type='text/javascript' src='themes/Avada/includes/lib/assets/min/js/library/bootstrap.tooltip.js@ver=3.3.5'></script>
+<script type='text/javascript' src='themes/Avada/includes/lib/assets/min/js/library/bootstrap.popover.js@ver=3.3.5'></script>
+<script type='text/javascript' src='themes/Avada/includes/lib/assets/min/js/library/jquery.appear.js@ver=1'></script>
+<script type='text/javascript' src='themes/Avada/includes/lib/assets/min/js/library/jquery.carouFredSel.js@ver=6.2.1'></script>
+<script type='text/javascript' src='themes/Avada/includes/lib/assets/min/js/library/jquery.cycle.js@ver=3.0.3'></script>
+<script type='text/javascript' src='themes/Avada/includes/lib/assets/min/js/library/jquery.easing.js@ver=1.3'></script>
+<script type='text/javascript' src='themes/Avada/includes/lib/assets/min/js/library/jquery.flexslider.js@ver=2.2.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var fusionMapsVars = {"admin_ajax":"https:\/\/#\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='themes/Avada/includes/lib/assets/min/js/library/jquery.fusion_maps.js@ver=2.2.2'></script>
+<script type='text/javascript' src='themes/Avada/includes/lib/assets/min/js/library/jquery.hoverflow.js@ver=1'></script>
+<script type='text/javascript' src='themes/Avada/includes/lib/assets/min/js/library/jquery.infinitescroll.js@ver=2.1'></script>
+<script type='text/javascript' src='themes/Avada/includes/lib/assets/min/js/library/jquery.placeholder.js@ver=2.0.7'></script>
+<script type='text/javascript' src='themes/Avada/includes/lib/assets/min/js/library/jquery.touchSwipe.js@ver=1.6.6'></script>
+<script type='text/javascript' src='themes/Avada/includes/lib/assets/min/js/general/fusion-alert.js@ver=1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var fusionCarouselVars = {"related_posts_speed":"2500","carousel_speed":"2500"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='themes/Avada/includes/lib/assets/min/js/general/fusion-carousel.js@ver=1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var fusionFlexSliderVars = {"status_vimeo":"","page_smoothHeight":"false","slideshow_autoplay":"1","slideshow_speed":"7000","pagination_video_slide":"","status_yt":"1","flex_smoothHeight":"false"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='themes/Avada/includes/lib/assets/min/js/general/fusion-flexslider.js@ver=1'></script>
+<script type='text/javascript' src='themes/Avada/includes/lib/assets/min/js/general/fusion-popover.js@ver=1'></script>
+<script type='text/javascript' src='themes/Avada/includes/lib/assets/min/js/general/fusion-tooltip.js@ver=1'></script>
+<script type='text/javascript' src='themes/Avada/includes/lib/assets/min/js/general/fusion-sharing-box.js@ver=1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var fusionBlogVars = {"infinite_blog_text":"<em>Loading the next set of posts...<\/em>","infinite_finished_msg":"<em>All items displayed.<\/em>","slideshow_autoplay":"1","slideshow_speed":"7000","pagination_video_slide":"","status_yt":"1","lightbox_behavior":"all","blog_pagination_type":"Pagination","flex_smoothHeight":"false"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='themes/Avada/includes/lib/assets/min/js/general/fusion-blog.js@ver=1'></script>
+<script type='text/javascript' src='themes/Avada/includes/lib/assets/min/js/general/fusion-button.js@ver=1'></script>
+<script type='text/javascript' src='themes/Avada/includes/lib/assets/min/js/general/fusion-general-global.js@ver=1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var fusionIe1011Vars = {"form_bg_color":"#ffffff"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='themes/Avada/includes/lib/assets/min/js/general/fusion-ie1011.js@ver=1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var avadaHeaderVars = {"header_position":"top","header_layout":"v4","header_sticky":"1","header_sticky_type2_layout":"menu_only","side_header_break_point":"800","header_sticky_mobile":"1","header_sticky_tablet":"1","mobile_menu_design":"modern","sticky_header_shrinkage":"1","nav_height":"43","nav_highlight_border":"3","nav_highlight_style":"bar","logo_margin_top":"31px","logo_margin_bottom":"0px","layout_mode":"wide","header_padding_top":"0px","header_padding_bottom":"0px","offset_scroll":"full"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='themes/Avada/assets/min/js/general/avada-header.js@ver=5.5.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var avadaMenuVars = {"header_position":"Top","logo_alignment":"Left","header_sticky":"1","side_header_break_point":"800","mobile_menu_design":"modern","dropdown_goto":"Go to...","mobile_nav_cart":"Shopping Cart","submenu_slideout":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='themes/Avada/assets/min/js/general/avada-menu.js@ver=5.5.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var fusionScrollToAnchorVars = {"content_break_point":"800","container_hundred_percent_height_mobile":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='themes/Avada/includes/lib/assets/min/js/general/fusion-scroll-to-anchor.js@ver=1'></script>
+<script type='text/javascript' src='themes/Avada/assets/min/js/library/bootstrap.scrollspy.js@ver=3.3.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var avadaCommentVars = {"title_style_type":"double","title_margin_top":"0px","title_margin_bottom":"31px"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='themes/Avada/assets/min/js/general/avada-comments.js@ver=5.5.2'></script>
+<script type='text/javascript' src='themes/Avada/assets/min/js/general/avada-general-footer.js@ver=5.5.2'></script>
+<script type='text/javascript' src='themes/Avada/assets/min/js/general/avada-quantity.js@ver=5.5.2'></script>
+<script type='text/javascript' src='themes/Avada/assets/min/js/general/avada-scrollspy.js@ver=5.5.2'></script>
+<script type='text/javascript' src='themes/Avada/assets/min/js/general/avada-select.js@ver=5.5.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var avadaSidebarsVars = {"header_position":"top","header_layout":"v4","header_sticky":"1","header_sticky_type2_layout":"menu_only","side_header_break_point":"800","header_sticky_tablet":"1","sticky_header_shrinkage":"1","nav_height":"43","content_break_point":"800"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='themes/Avada/assets/min/js/general/avada-sidebars.js@ver=5.5.2'></script>
+<script type='text/javascript' src='themes/Avada/assets/min/js/library/jquery.sticky-kit.js@ver=5.5.2'></script>
+<script type='text/javascript' src='themes/Avada/assets/min/js/general/avada-tabs-widget.js@ver=5.5.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var toTopscreenReaderText = {"label":"Go to Top"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='themes/Avada/assets/min/js/library/jquery.toTop.js@ver=1.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var avadaToTopVars = {"status_totop_mobile":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='themes/Avada/assets/min/js/general/avada-to-top.js@ver=5.5.2'></script>
+<script type='text/javascript' src='themes/Avada/assets/min/js/general/avada-drop-down.js@ver=5.5.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var avadaRevVars = {"avada_rev_styles":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='themes/Avada/assets/min/js/general/avada-rev-styles.js@ver=5.5.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var avadaMobileImageVars = {"side_header_break_point":"800"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='themes/Avada/assets/min/js/general/avada-mobile-image-hover.js@ver=5.5.2'></script>
+<script type='text/javascript' src='themes/Avada/assets/min/js/general/avada-contact-form-7.js@ver=5.5.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var avadaWooCommerceVars = {"order_actions":"\u03a0\u0395\u03a1\u0399\u03a3\u03a3\u039f\u03a4\u0395\u03a1\u0391","title_style_type":"double","woocommerce_shop_page_columns":"4","woocommerce_checkout_error":"Not all fields have been filled in correctly.","woocommerce_single_gallery_size":"500","related_products_heading_size":"2"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='themes/Avada/assets/min/js/general/avada-woocommerce.js@ver=5.5.2'></script>
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ubermenu_data = {"remove_conflicts":"on","reposition_on_load":"off","intent_delay":"300","intent_interval":"100","intent_threshold":"7","scrollto_offset":"50","scrollto_duration":"1000","responsive_breakpoint":"959","accessible":"on","retractor_display_strategy":"responsive","touch_off_close":"on","collapse_after_scroll":"on","v":"3.2.5","configurations":["main"],"ajax_url":"https:\/\/#\/wp-admin\/admin-ajax.php","plugin_url":"https:\/\/#\/wp-content\/plugins\/ubermenu\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='plugins/ubermenu/assets/js/ubermenu.min.js@ver=3.2.5'></script>
+<script type='text/javascript' src='plugins/wp-social-sharing/static/socialshare.js@ver=1.6'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var moove_frontend_gdpr_scripts = {"ajaxurl":"https:\/\/#\/wp-admin\/admin-ajax.php","post_id":"5530","plugin_dir":"https:\/\/#\/wp-content\/plugins\/gdpr-cookie-compliance","show_icons":"all","is_page":"","strict_init":"1","enabled_default":{"third_party":0,"advanced":0},"geo_location":"false","force_reload":"false","is_single":"1","hide_save_btn":"false","current_user":"0","cookie_expiration":"365","script_delay":"2000","wp_lang":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='plugins/gdpr-cookie-compliance/dist/scripts/main.js@ver=4.5.6'></script>
+<script type='text/javascript' src='plugins/woocommerce-social-media-share-buttons/smsb_script.js@ver=1.0.0'></script>
+<script type='text/javascript' src='js/wp-embed.min.js@ver=cfa2742b662d7bd05195f9fdd310a41b'></script>
+<script type='text/javascript' src='plugins/woocommerce-products-filter/js/tooltip/js/tooltipster.bundle.min.js@ver=cfa2742b662d7bd05195f9fdd310a41b'></script>
+<script type='text/javascript' src='plugins/woocommerce-products-filter/js/front.js@ver=cfa2742b662d7bd05195f9fdd310a41b'></script>
+<script type='text/javascript' src='plugins/woocommerce-products-filter/js/html_types/radio.js@ver=cfa2742b662d7bd05195f9fdd310a41b'></script>
+<script type='text/javascript' src='plugins/woocommerce-products-filter/js/html_types/checkbox.js@ver=cfa2742b662d7bd05195f9fdd310a41b'></script>
+<script type='text/javascript' src='plugins/woocommerce-products-filter/js/html_types/select.js@ver=cfa2742b662d7bd05195f9fdd310a41b'></script>
+<script type='text/javascript' src='plugins/woocommerce-products-filter/js/html_types/mselect.js@ver=cfa2742b662d7bd05195f9fdd310a41b'></script>
+<script type='text/javascript' src='plugins/woocommerce-products-filter/js/chosen/chosen.jquery.min.js@ver=cfa2742b662d7bd05195f9fdd310a41b'></script>
+<script type='text/javascript' src='plugins/woocommerce-products-filter/js/malihu-custom-scrollbar/jquery.mousewheel.min.js@ver=cfa2742b662d7bd05195f9fdd310a41b'></script>
+<script type='text/javascript' src='plugins/woocommerce-products-filter/js/malihu-custom-scrollbar/jquery.mCustomScrollbar.min.js@ver=cfa2742b662d7bd05195f9fdd310a41b'></script>
+<script type='text/javascript' src='plugins/woocommerce-products-filter/js/malihu-custom-scrollbar/jquery.mCustomScrollbar.concat.min.js@ver=cfa2742b662d7bd05195f9fdd310a41b'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mcgrid = "true";
+/* ]]> */
+</script>
+<script type='text/javascript' src='plugins/my-calendar/js/mc-grid.js@ver=cfa2742b662d7bd05195f9fdd310a41b'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mclist = "true";
+/* ]]> */
+</script>
+<script type='text/javascript' src='plugins/my-calendar/js/mc-list.js@ver=cfa2742b662d7bd05195f9fdd310a41b'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mcmini = "true";
+/* ]]> */
+</script>
+<script type='text/javascript' src='plugins/my-calendar/js/mc-mini.js@ver=cfa2742b662d7bd05195f9fdd310a41b'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mcAjax = "true";
+/* ]]> */
+</script>
+<script type='text/javascript' src='plugins/my-calendar/js/mc-ajax.js@ver=cfa2742b662d7bd05195f9fdd310a41b'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var my_calendar = {"newWindow":"Opens in new tab"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='plugins/my-calendar/js/mcjs.js@ver=cfa2742b662d7bd05195f9fdd310a41b'></script>
+
+  <button data-href="#moove_gdpr_cookie_modal" id="moove_gdpr_save_popup_settings_button" style='display: none;bottom: 20px; left: 20px;' class=" gdpr-floating-button-custom-position" aria-label="Αλλάξτε τις ρυθμίσεις των cookies">
+    <span class="moove_gdpr_icon">
+    	<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" style="max-width: 30px; max-height: 30px;">
+    		<g data-name="1">
+    			<path d="M293.9,450H233.53a15,15,0,0,1-14.92-13.42l-4.47-42.09a152.77,152.77,0,0,1-18.25-7.56L163,413.53a15,15,0,0,1-20-1.06l-42.69-42.69a15,15,0,0,1-1.06-20l26.61-32.93a152.15,152.15,0,0,1-7.57-18.25L76.13,294.1a15,15,0,0,1-13.42-14.91V218.81A15,15,0,0,1,76.13,203.9l42.09-4.47a152.15,152.15,0,0,1,7.57-18.25L99.18,148.25a15,15,0,0,1,1.06-20l42.69-42.69a15,15,0,0,1,20-1.06l32.93,26.6a152.77,152.77,0,0,1,18.25-7.56l4.47-42.09A15,15,0,0,1,233.53,48H293.9a15,15,0,0,1,14.92,13.42l4.46,42.09a152.91,152.91,0,0,1,18.26,7.56l32.92-26.6a15,15,0,0,1,20,1.06l42.69,42.69a15,15,0,0,1,1.06,20l-26.61,32.93a153.8,153.8,0,0,1,7.57,18.25l42.09,4.47a15,15,0,0,1,13.41,14.91v60.38A15,15,0,0,1,451.3,294.1l-42.09,4.47a153.8,153.8,0,0,1-7.57,18.25l26.61,32.93a15,15,0,0,1-1.06,20L384.5,412.47a15,15,0,0,1-20,1.06l-32.92-26.6a152.91,152.91,0,0,1-18.26,7.56l-4.46,42.09A15,15,0,0,1,293.9,450ZM247,420h33.39l4.09-38.56a15,15,0,0,1,11.06-12.91A123,123,0,0,0,325.7,356a15,15,0,0,1,17,1.31l30.16,24.37,23.61-23.61L372.06,328a15,15,0,0,1-1.31-17,122.63,122.63,0,0,0,12.49-30.14,15,15,0,0,1,12.92-11.06l38.55-4.1V232.31l-38.55-4.1a15,15,0,0,1-12.92-11.06A122.63,122.63,0,0,0,370.75,187a15,15,0,0,1,1.31-17l24.37-30.16-23.61-23.61-30.16,24.37a15,15,0,0,1-17,1.31,123,123,0,0,0-30.14-12.49,15,15,0,0,1-11.06-12.91L280.41,78H247l-4.09,38.56a15,15,0,0,1-11.07,12.91A122.79,122.79,0,0,0,201.73,142a15,15,0,0,1-17-1.31L154.6,116.28,131,139.89l24.38,30.16a15,15,0,0,1,1.3,17,123.41,123.41,0,0,0-12.49,30.14,15,15,0,0,1-12.91,11.06l-38.56,4.1v33.38l38.56,4.1a15,15,0,0,1,12.91,11.06A123.41,123.41,0,0,0,156.67,311a15,15,0,0,1-1.3,17L131,358.11l23.61,23.61,30.17-24.37a15,15,0,0,1,17-1.31,122.79,122.79,0,0,0,30.13,12.49,15,15,0,0,1,11.07,12.91ZM449.71,279.19h0Z" fill="currentColor"/>
+    			<path d="M263.71,340.36A91.36,91.36,0,1,1,355.08,249,91.46,91.46,0,0,1,263.71,340.36Zm0-152.72A61.36,61.36,0,1,0,325.08,249,61.43,61.43,0,0,0,263.71,187.64Z" fill="currentColor"/>
+    		</g>
+    	</svg>
+    </span>
+    <span class="moove_gdpr_text">Αλλάξτε τις ρυθμίσεις των cookies</span>
+  </button>
+
+<!-- V1 -->
+<div id="moove_gdpr_cookie_modal" class="gdpr_lightbox-hide" role="complementary" aria-label="GDPR Settings Screen">
+  <div class="moove-gdpr-modal-content moove-clearfix logo-position-center moove_gdpr_modal_theme_v1">
+    <button class="moove-gdpr-modal-close" aria-label="Close GDPR Cookie Settings">
+      <span class="gdpr-sr-only">Close GDPR Cookie Settings</span>
+      <span class="gdpr-icon moovegdpr-arrow-close"></span>
+    </button>
+    <div class="moove-gdpr-modal-left-content">
+      
+<div class="moove-gdpr-company-logo-holder">
+  <img src="uploads/2017/04/Lamberts_L.png" alt="Συμπληρώματα Διατροφής" title="Συμπληρώματα Διατροφής"   width="240"  height="64"  class="img-responsive" />
+</div>
+<!--  .moove-gdpr-company-logo-holder -->      <ul id="moove-gdpr-menu">
+        
+<li class="menu-item-on menu-item-privacy_overview menu-item-selected">
+  <button data-href="#privacy_overview" class="moove-gdpr-tab-nav" aria-label="Τι είναι τo Cookie">
+    <span class="gdpr-svg-icon">
+      <svg class="icon icon-privacy-overview" viewBox="0 0 26 32">
+        <path d="M11.082 27.443l1.536 0.666 1.715-0.717c5.018-2.099 8.294-7.014 8.294-12.442v-5.734l-9.958-5.325-9.702 5.325v5.862c0 5.376 3.2 10.24 8.115 12.365zM4.502 10.138l8.166-4.506 8.397 4.506v4.813c0 4.838-2.893 9.19-7.347 11.034l-1.101 0.461-0.922-0.41c-4.352-1.894-7.194-6.195-7.194-10.957v-4.941zM12.029 14.259h1.536v7.347h-1.536v-7.347zM12.029 10.394h1.536v2.483h-1.536v-2.483z" fill="currentColor"></path>
+      </svg>      
+    </span> 
+    <span class="gdpr-nav-tab-title">Τι είναι τo Cookie</span>
+  </button>
+</li>
+
+  <li class="menu-item-strict-necessary-cookies menu-item-off">
+    <button data-href="#strict-necessary-cookies" class="moove-gdpr-tab-nav" aria-label="Απαραίτητα cookies">
+      <span class="gdpr-svg-icon">
+        <svg class="icon icon-strict-necessary" viewBox="0 0 26 32">
+          <path d="M22.685 5.478l-9.984 10.752-2.97-4.070c-0.333-0.461-0.973-0.538-1.434-0.205-0.435 0.333-0.538 0.947-0.23 1.408l3.686 5.094c0.179 0.256 0.461 0.41 0.768 0.435h0.051c0.282 0 0.538-0.102 0.742-0.307l10.854-11.699c0.358-0.435 0.333-1.075-0.102-1.434-0.384-0.384-0.998-0.358-1.382 0.026v0zM22.301 12.954c-0.563 0.102-0.922 0.64-0.794 1.203 0.128 0.614 0.179 1.229 0.179 1.843 0 5.094-4.122 9.216-9.216 9.216s-9.216-4.122-9.216-9.216 4.122-9.216 9.216-9.216c1.536 0 3.021 0.384 4.378 1.101 0.512 0.23 1.126 0 1.357-0.538 0.205-0.461 0.051-0.998-0.384-1.254-5.478-2.944-12.314-0.922-15.283 4.557s-0.922 12.314 4.557 15.258 12.314 0.922 15.258-4.557c0.896-1.638 1.357-3.482 1.357-5.35 0-0.768-0.077-1.51-0.23-2.253-0.102-0.538-0.64-0.896-1.178-0.794z" fill="currentColor"></path>
+        </svg>
+      </span> 
+      <span class="gdpr-nav-tab-title">Απαραίτητα cookies</span>
+    </button>
+  </li>
+
+
+  <li class="menu-item-off menu-item-third_party_cookies">
+    <button data-href="#third_party_cookies" class="moove-gdpr-tab-nav" aria-label="Διαφημιστικά Cookies">
+      <span class="gdpr-svg-icon">
+        <svg class="icon icon-3rd-party" viewBox="0 0 26 32">
+          <path d="M25.367 3.231c-0.020 0-0.040 0-0.060 0.020l-4.98 1.080c-0.16 0.040-0.2 0.16-0.080 0.28l1.42 1.42-10.060 10.040 1.14 1.14 10.060-10.060 1.42 1.42c0.12 0.12 0.24 0.080 0.28-0.080l1.060-5.020c0-0.14-0.080-0.26-0.2-0.24zM1.427 6.371c-0.74 0-1.4 0.66-1.4 1.4v19.6c0 0.74 0.66 1.4 1.4 1.4h19.6c0.74 0 1.4-0.66 1.4-1.4v-14.6h-1.6v14.4h-19.2v-19.2h14.38v-1.6h-14.58z" fill="currentColor"></path>
+        </svg>        
+      </span> 
+      <span class="gdpr-nav-tab-title">Διαφημιστικά Cookies</span>
+    </button>
+  </li>
+
+
+      </ul>
+      
+<div class="moove-gdpr-branding-cnt">
+  
+		<a href="https://wordpress.org/plugins/gdpr-cookie-compliance" target="_blank" rel="noopener noreferrer nofollow" class='moove-gdpr-branding'>Powered by&nbsp; <span>GDPR Cookie Compliance</span></a>
+		</div>
+<!--  .moove-gdpr-branding -->    </div>
+    <!--  .moove-gdpr-modal-left-content -->
+    <div class="moove-gdpr-modal-right-content">
+      <div class="moove-gdpr-modal-title">
+         
+      </div>
+      <!-- .moove-gdpr-modal-ritle -->
+      <div class="main-modal-content">
+
+        <div class="moove-gdpr-tab-content">
+          
+<div id="privacy_overview" class="moove-gdpr-tab-main">
+      <span class="tab-title">Τι είναι τo Cookie</span>
+    <div class="moove-gdpr-tab-main-content">
+  	<p>Το cookie είναι ένα σύνολο δεδομένων το οποίο μπορεί να αποστέλλεται από το site στο browser του υπολογιστή σας και στη συνέχεια αποθηκεύεται στον υπολογιστή σας ως ανώνυμο ίχνος. Σε αυτή τη σελίδα μπορείτε να επιλέξετε ποια cookies μπορείτε να έχετε ενεργοποιημένα ή απενεργοποιημένα κατά τις επισκέψεις σας στην ιστοσελίδα μας με εξαίρεση το cookie το οποίο μετρά την επισκεψιμότητα μέσω του Google Analytics</p>
+  	  </div>
+  <!--  .moove-gdpr-tab-main-content -->
+
+</div>
+<!-- #privacy_overview -->          
+  <div id="strict-necessary-cookies" class="moove-gdpr-tab-main" style="display:none">
+    <span class="tab-title">Απαραίτητα cookies</span>
+    <div class="moove-gdpr-tab-main-content">
+      <p>Τα αυστηρώς απαραίτητα  cookies θα πρέπει να είναι ενεργοποιημένα ανά πάσα στιγμή, ώστε να μπορούμε να αποθηκεύσουμε τις προτιμήσεις σας για τις ρυθμίσεις των cookies.</p>
+      <div class="moove-gdpr-status-bar ">
+        <div class="gdpr-cc-form-wrap">
+          <div class="gdpr-cc-form-fieldset">
+            <label class="cookie-switch" for="moove_gdpr_strict_cookies">    
+              <span class="gdpr-sr-only">Enable or Disable Cookies</span>        
+              <input type="checkbox" aria-label="Απαραίτητα cookies"  value="check" name="moove_gdpr_strict_cookies" id="moove_gdpr_strict_cookies">
+              <span class="cookie-slider cookie-round" data-text-enable="Ενεργοποιημένο" data-text-disabled="Απενεργοποιημένο"></span>
+            </label>
+          </div>
+          <!-- .gdpr-cc-form-fieldset -->
+        </div>
+        <!-- .gdpr-cc-form-wrap -->
+      </div>
+      <!-- .moove-gdpr-status-bar -->
+              <div class="moove-gdpr-strict-warning-message" style="margin-top: 10px;">
+          <p>Εάν απενεργοποιήσετε αυτό το cookie, δεν θα μπορέσουμε να αποθηκεύσουμε τις προτιμήσεις σας. Αυτό σημαίνει ότι κάθε φορά που επισκέπτεστε αυτόν τον ιστότοπο, θα χρειάζετε να ενεργοποιήσετε ή να απενεργοποιήσετε τα cookies ξανά.</p>
+        </div>
+        <!--  .moove-gdpr-tab-main-content -->
+                                              
+    </div>
+    <!--  .moove-gdpr-tab-main-content -->
+  </div>
+  <!-- #strict-necesarry-cookies -->
+          
+  <div id="third_party_cookies" class="moove-gdpr-tab-main" style="display:none">
+    <span class="tab-title">Διαφημιστικά Cookies</span>
+    <div class="moove-gdpr-tab-main-content">
+      <p>Τα διαφημιστικά Cookies χρησιμοποιούνται για την παροχή περιεχομένου, τα οποία ταιριάζουν περισσότερο στις προτιμήσεις του επισκέπτη. Χρησιμοποιούνται συνήθως για στοχευμένη διαφήμιση, προώθηση προσφορών καθώς και για την μέτρηση αποτελεσματικότητας. Οι υπηρεσίες που χρησιμοποιούμε είναι Google Adwords και Facebook.</p>
+      <div class="moove-gdpr-status-bar">
+        <div class="gdpr-cc-form-wrap">
+          <div class="gdpr-cc-form-fieldset">
+            <label class="cookie-switch" for="moove_gdpr_performance_cookies">    
+              <span class="gdpr-sr-only">Enable or Disable Cookies</span>     
+              <input type="checkbox" aria-label="Διαφημιστικά Cookies" value="check" name="moove_gdpr_performance_cookies" id="moove_gdpr_performance_cookies" disabled>
+              <span class="cookie-slider cookie-round" data-text-enable="Ενεργοποιημένο" data-text-disabled="Απενεργοποιημένο"></span>
+            </label>
+          </div>
+          <!-- .gdpr-cc-form-fieldset -->
+        </div>
+        <!-- .gdpr-cc-form-wrap -->
+      </div>
+      <!-- .moove-gdpr-status-bar -->
+              <div class="moove-gdpr-strict-secondary-warning-message" style="margin-top: 10px; display: none;">
+          <p>Παρακαλούμε ενεργοποιήστε πρώτα τα αυστηρώς απαραίτητα cookies προκειμένου να μπορούμε να αποθηκεύσουμε τις προτιμήσεις σας!</p>
+        </div>
+        <!--  .moove-gdpr-tab-main-content -->
+             
+    </div>
+    <!--  .moove-gdpr-tab-main-content -->
+  </div>
+  <!-- #third_party_cookies -->
+          
+          
+        </div>
+        <!--  .moove-gdpr-tab-content -->
+      </div>
+      <!--  .main-modal-content -->
+      <div class="moove-gdpr-modal-footer-content">
+        <div class="moove-gdpr-button-holder">
+  <button class="mgbutton moove-gdpr-modal-allow-all button-visible"  aria-label="Ενεργοποίηση Όλων">Ενεργοποίηση Όλων</button>
+  <button class="mgbutton moove-gdpr-modal-save-settings button-visible" aria-label="Αποθήκευση Αλλαγών">Αποθήκευση Αλλαγών</button>
+</div>
+<!--  .moove-gdpr-button-holder -->      </div>
+      <!--  .moove-gdpr-modal-footer-content -->
+    </div>
+    <!--  .moove-gdpr-modal-right-content -->
+
+    <div class="moove-clearfix"></div>
+
+  </div>
+  <!--  .moove-gdpr-modal-content -->
+</div>
+<!-- #moove_gdpr_cookie_modal -->
+                <style type="text/css">
+        
+        
+
+
+        
+
+
+
+                        .woof_edit_view{
+                    display: none;
+                }
+        
+        </style>
+        
+
+        <script src="custom_lamberts_new.js"></script>
+
+
+<script>
+jQuery(function(){
+    jQuery('.selectpicker').selectpicker();
+});
+</script>
+
+<script>
+jQuery(document).ready(function(){
+    jQuery(function(){
+      // bind change event to select
+      
+      jQuery('#lang_desktop').on('change', function () {
+          var lang = jQuery('#lang_desktop option:selected').val();
+          if(lang==2) {
+            window.location = 'en/';
+          }
+          else {
+            
+          }
+          return false;
+      });
+    });
+});
+</script>
+
+<script>
+jQuery(document).ready(function(){
+    jQuery(function(){
+      // bind change event to select
+      
+      jQuery('.lang-mobile').on('change', function () {
+          var lang = jQuery('.lang-mobile option:selected').val();
+          console.log(lang);
+          if(lang==2) {
+            window.location = 'en/';
+          }
+          else {
+            
+          }
+          return false;
+      });
+    });
+});
+</script>
+
+<script>
+jQuery(document).on( 'popup-submit-done', function(event, popup, data){
+	// Option A: Do not ever close Popup 18 automatically!
+	if ( data.popup_id == 18 ) {
+		data.close_popup = false;
+	}
+
+	// Option B: Do not close Popup if there is an Ajax JSON response that contains "mailSent: false"
+	if ( undefined !== data.last_ajax.responseJSON ) {
+		response = data.last_ajax.responseJSON;
+		if ( false === response.mailSent ) {
+			data.close_popup = false;
+		}
+	}
+});
+</script>
+
+<!--<script>
+function validate()
+{
+ 
+   if( document.myForm.address.value == "" )
+   {
+     alert( "Παρακαλώ συμπληρώστε Πόλη ή Τ.Κ. !" );
+     document.myForm.address.focus() ;
+     return false;
+   }
+
+  return true;
+}
+</script>-->
+
+
+
+
+<script>
+
+
+
+
+jQuery(window).load(function(){
+ if(window.location.href.indexOf("login=subs") > -1) {
+jQuery(".login_modal").trigger( "click" );
+
+}
+});
+</script>
+<script>
+jQuery(document).ready(function(){
+  if ( jQuery( ".profilepress_success" ).length ) {
+ 
+    jQuery( ".login-form" ).hide();
+    jQuery(".modal-content .forget_password_form").css("max-height","200px");
+ jQuery(".modal-content .forget_password_form").css("min-height","200px");
+
+  }  
+}); 
+</script>
+<script>
+jQuery(document).ready(function(){
+if ( jQuery( ".modal-content .profilepress_success" ).length ) {
+    jQuery(".modal-content .profilepress-reset-status a").click(function(e){
+   e.preventDefault();
+   jQuery(".forget_password_form").hide();
+    jQuery(".login_popup_all").fadeIn("slow");
+  jQuery("#myModal").css("top","20%");
+   
+  
+        });
+}
+});
+</script>
+<script>
+jQuery(document).ready(function(){
+// Get the modal
+
+jQuery(".login-popup").click(function(){
+ 
+     jQuery("#myModal").css("display","block");
+     
+});
+
+jQuery(".close").click(function(){
+    jQuery("#myModal").css("display","none");
+});
+
+
+
+});    
+</script>
+<script>
+jQuery(document).ready(function(){
+// Get the modal
+
+jQuery(".video-modal").click(function(){
+ 
+     jQuery("#myVideoModal").css("display","block");
+      if(jQuery("#myVideoModal .youtube-video-place img").length){
+     jQuery("#myVideoModal").find(".youtube-video-place").html('<iframe width="100%" height="400" allowfullscreen frameborder="0"  src="%cf%83%cf%89%cf%83%cf%84%ce%ae-%ce%b4%ce%b9%ce%b1%cf%84%cf%81%ce%bf%cf%86%ce%ae-%ce%b3%ce%b9%ce%b1-%ce%ba%ce%b1%ce%bb%ce%ae-%cf%85%ce%b3%ce%b5%ce%af%ce%b1/'&#32;+&#32;jQuery("#myVideoModal .youtube-video-place").data('yt-url') + '"></iframe>')   
+}
+          
+      });
+
+jQuery(".close").click(function(){
+    jQuery("#myVideoModal").css("display","none");
+});
+
+
+
+});    
+</script>
+<script>
+jQuery(document).ready(function(){
+// Get the modal
+
+jQuery(".video-modal2").click(function(){
+ 
+     jQuery("#myVideoModal2").css("display","block");
+     if(jQuery("#myVideoModal2 .youtube-video-place img").length){
+       jQuery("#myVideoModal2").find(".youtube-video-place").html('<iframe width="100%" height="400" allowfullscreen frameborder="0"  src="%cf%83%cf%89%cf%83%cf%84%ce%ae-%ce%b4%ce%b9%ce%b1%cf%84%cf%81%ce%bf%cf%86%ce%ae-%ce%b3%ce%b9%ce%b1-%ce%ba%ce%b1%ce%bb%ce%ae-%cf%85%ce%b3%ce%b5%ce%af%ce%b1/'&#32;+&#32;jQuery("#myVideoModal2 .youtube-video-place").data('yt-url') + '"></iframe>')   
+
+     }
+     });
+
+jQuery(".close").click(function(){
+    jQuery("#myVideoModal2").css("display","none");
+});
+
+
+
+});    
+</script>
+<script>
+      function preloadImages(srcs) {
+    if (!preloadImages.cache) {
+        preloadImages.cache = [];
+    }
+    var img;
+    for (var i = 0; i < srcs.length; i++) {
+        img = new Image();
+        img.src = srcs[i];
+        preloadImages.cache.push(img);
+    }
+}
+
+// then to call it, you would use this
+var imageSrcs = ["wp-content/uploads/2016/11/location_header.png", "wp-content/uploads/2016/11/gift_header.png", "wp-content/uploads/2017/02/logged_in_header.png","wp-content/uploads/2017/03/mail_post_h.png","wp-content/uploads/2017/03/print_post_h.png","wp-content/uploads/2017/04/contact_form_background_gr_2.png","wp-content/uploads/2017/04/Fill-in-the-contact-form_DOWN_01.png"];
+
+preloadImages(imageSrcs);
+</script>
+
+<script type="text/javascript">
+document.addEventListener( 'wpcf7mailsent', function( event ) {
+  
+      jQuery('html, body').animate({ scrollTop: jQuery('.wpcf7-form .wpcf7-mail-sent-ok').offset().top+75 }, 'slow');
+    
+}, false );
+</script>	</body>
+</html><!-- WP Fastest Cache file was created in 0.30381107330322 seconds, on 07-07-21 12:49:37 -->
